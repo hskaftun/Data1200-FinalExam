@@ -513,7 +513,7 @@ h2 {
    margin-right: 5px;
    margin-left: 5px;
    margin-bottom: 5px;
-   float: right;
+   float:inline-end;
    width: 200px;
    height: auto;
 }
@@ -523,7 +523,7 @@ h2 {
   margin-left: 5px;
   margin-bottom: 5px;
   position: relative;
-  float: left;
+  float:inline-end;
   width: 200px;
   height: auto;
 }
@@ -532,7 +532,7 @@ h2 {
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  float: right;
+  float:inline-end;
   width: 200px;
   height: auto;
 }
@@ -541,7 +541,7 @@ h2 {
   margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
-  float: left;
+  float:inline-end;
   width: 200px;
   height: auto;
 }
