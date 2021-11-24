@@ -1,129 +1,269 @@
-* {
+*{
   padding: 0;
-  margin: 0;
+  margin: 0; 
   box-sizing: border-box;
+  font-size: 18px;
+}
+body{
+   display: grid;
+   grid-template-areas: 
+   "header"
+   "content"
+   "footer";
+   height: 2000px;
+   grid-template-rows: 100px 1fr 400px;
+
+}
+/*
+div{
+   background: lightgray;
+   border: thin solid black;
+}
+*/
+#content{
+   display: grid;
+   grid-template-rows: 3fr 7fr ;
+   background: lightgrey;
+
 }
 
-body {
-  font-size: 16px;
-  background: lightgrey;
-  font-family: sans-serif;
-}
-
-/*********************
-HEADER
-************************/
-header {
-  display: flex;
-  width: 100%;
-  background: #99bbff;
-  position: relative;
-  padding: 0.7rem 0;
-}
-
-header img {
-  display: inline-block;
-  max-width: 125px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar a {
-  color: #f4f4f4;
-  margin-left: 2rem;
-  font-size: 1.6rem;
-  text-decoration: none;
-  opacity: 0.7;
-}
-
-
-.navbar a:hover {
-  opacity: 100;
-}
-
-/*****************
-END HEADER
-****************/
-/***************
-CONTENT
-***************/
-article {
-  width: 90%;
-  margin: 0 auto;
-  background-color: #f4f4f4;
-  position: relative;
-}
-
-h1 {
-  display: block;
-  font-size: 2rem;
-  padding-top: 1.5rem;
-  margin: 1.5rem auto;
-  width: 80%;
-  text-transform: uppercase;
-}
-p {
-  width: 80%;
-  margin: 1.5rem auto;
-}
-
-.slider {
-  overflow: hidden;
-  margin: 1.5rem auto;
-  padding-bottom: 1.5rem;
-  width: 60%;
-}
-
-.slider figure {
-  position: relative;
-  animation: 20s slider infinite;
-  margin: 0;
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  width: 500%;
+  background-color: #99bbff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border: 1px dotted black;
+  
 }
 
-.slider figure img {
-  border: 0.25rem solid black;
-  float: left;
-  width: 20%;
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
 }
 
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  30% {
-    left: -100%;
-  }
-  40% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  90% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
+.sidebar a:hover {
+  color: white;
 }
-/*************
-END CONTENT
-*************/
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#mySidebar ul li a:hover{
+  background:#ff6e00;
+  border-radius: 2px;
+}
+
+.openbtn {
+  font-size: 26px;
+  cursor: pointer;
+  background-color: #99bbff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: white;
+}
+
+#main {
+  position: fixed;
+  transition: margin-left 0.5s;
+  padding: 24px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #99bbff;
+  min-height: 54px;
+}
+.logo{
+    position: fixed;
+    display: block;
+    max-width: 125px;
+    display: inline;
+    right: 5px;
+    top: 5px;
+
+    
+}
+.header{
+    
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    
+}
+
+/*<--FUN PAGE START-->*/
+
+ /*<---The box that includes little pictures,buttons-->*/
+.body{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom,whitesmoke 20%,whitesmoke 100%),url(funinoslo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ .heading{
+   width: 30%;
+   text-align: center;
+   color: #000;
+   font-family: Arial,Helvetica,sans-serif;
+   line-height: 1.4;
+   font-size: 18px;
+ }
+ .heading h1{
+   font-size: 40px;
+
+ }
+
+ 
+ .tours{
+   width: 70%;
+   display: flex;
+   justify-content: space-around;
+
+ }
+ .places{
+   display: inline;
+   text-align: center;
+   border-radius: 12px;
+
+ }
+ /*<---The orange boxes over the little pictures-->*/
+ .places h2{
+   color: white;
+   font-size: 22px;
+   letter-spacing: 3px;
+   border-radius: 8px;
+   padding: 30px 30px;
+   margin-bottom: 1px;
+   background-color: orange;
+ }
+ 
+ 
+/*<-------SEE MORE BUTTONS----->*/
+.btn{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius:12px;
+  padding:12px 30px;
+  border: .2rem solid black;
+  color: black;
+  cursor: pointer;
+  background: none;
+display: inline-block;
+}
+.btn:hover{
+  background: orange;
+  color: #fff;
+}
+/*<---FINISH-->*/
+/*<---small picture frames-->*/
+.places img{
+  border:3px solid orange
+
+}
+/*<---Big title, with text"FUN" in a decorated orange box-->*/
+.body .heading h1{
+
+  color: var(--black);
+  font-size: 3rem;
+
+}
+/* <----Make Tittle "Fun" ->Orange Fun--->*/
+.body .heading h1 span{
+  color:orange;
+  font-size: 3rem;
+}
+/*<----Finish --->*/
+
+/*<----Start to make Read More Button-->*/
+.heading a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 45px;
+  padding: 14px 50px;
+  background-color: #fff;
+}
+.heading a:hover{
+  letter-spacing: 3px;
+  transition: 0.6s;
+}
+
+/*<----Finish read more button--->*/
+
+/*<----Font size of texts-->*/
+.æ{
+  font-size: 40px;
+}
+/*<--FINISH-->*/
+
+/*<---TITLE "FUN IN OSLO"-->*/
+#å{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+
+}
+/*<-----Enclose text "Fun"in an decorated orange box-->*/
+#å span{
+  background: orange;
+  color: #fff;
+  display: inline-block;
+  padding: .5rem 3rem;
+  font-size: 3.5rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+
+}
+/*<----Finish decorated box--->*/
+/*<---Texts under title "FUN IN OSLO"-->*/
+.text-section{
+  margin-top: -800px;
+}
+.text-section p{
+
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+
+}
+.text-section .containert {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.text-section .containert img{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*<---Finish texts-->*/
+/*<---FINISH FUN PAGE*/
+
 
 /***************
 FOOTER
