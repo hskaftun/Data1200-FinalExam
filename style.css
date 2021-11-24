@@ -944,15 +944,17 @@ TOPICAL INFORMATION CSS 960px++
 }
 
 .topicalinfo-img1 {
+  display: block;
+  margin: auto;
   max-width: 100%;
-  display: flex;
-  justify-content: center;
+  padding-right: 2rem;
 }
 
 .topicalinfo-img2 {
+  display: block;
+  margin: auto;
   max-width: 100%;
-  display: flex;
-  justify-content: center;
+  padding-left: 2rem;
   order: 2;
 }
 
