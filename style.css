@@ -850,12 +850,14 @@ TOPICAL INFORMATION CSS 600px - 960px
 
 .topicalinfo-img1 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .topicalinfo-img2 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   order: 2;
 }
 
