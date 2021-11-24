@@ -384,7 +384,72 @@ h2 {
 }
 /*CSS til reflection essay page slutt*/
 
+.avsnitt1 {
+   padding: 24px;
+   width: 100%;
+   background-color: #99bbff;
+   display: grid;
+   grid-template-columns: auto;
+ }
+ 
+ .avsnitt2 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+    display: grid;
+   grid-template-columns: 1;
+   background-color: tomato; 
+ }
+ 
+  .avsnitt3 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+  }
+ 
+  .avsnitt4 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+  }
 
+
+.bildeavsnitt1 {
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   width: 250px;
+   height: auto;
+   
+}
+
+.bildeavsnitt2 {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: auto;
+}
+
+.bildeavsnitt3 {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: auto;
+}
+
+.bildeavsnitt4 {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: auto;
+}
 
 
 
