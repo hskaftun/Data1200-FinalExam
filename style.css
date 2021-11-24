@@ -618,7 +618,7 @@ width: 100%;
 .avsnitt1 {
    padding: 24px;
    width: 100%;
-   background-color: #99bbff;
+   background-color: tomato;
    display: grid;
    grid-template-columns: auto;
  }
