@@ -294,8 +294,8 @@ body{
 
 /*CSS til reflection essay page*/
 .essaytext {
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
    margin-top: 30px;
    line-height: 1.5;
 }
@@ -473,8 +473,8 @@ h2 {
 
 /*CSS til reflection essay page*/
 .essaytext {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 30px;
   line-height: 1.5;
 }
@@ -850,12 +850,14 @@ TOPICAL INFORMATION CSS 600px - 960px
 
 .topicalinfo-img1 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .topicalinfo-img2 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   order: 2;
 }
 
