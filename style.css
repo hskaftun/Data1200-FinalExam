@@ -7,7 +7,6 @@
 }
 body{
    font-size: 16px;
-   display: grid;
    grid-template-areas: 
    "header"
    "content"
@@ -20,7 +19,7 @@ body{
 #content{
    display: grid;
    grid-template-rows: 3fr 7fr ;
-   background: white;
+   background: lightgrey;
 
 }
 
@@ -225,7 +224,7 @@ body{
   position: relative;
   background-color: #66bbff;
   border: none;
-  color: #66bbff;
+  color: #000;
   padding: 20px;
   width: 200px;
   text-align: center;
@@ -238,12 +237,13 @@ body{
     .article .contentBox .button h5:hover {
       background: #fff;
       box-shadow: 0px 2px 10px 5px #66bbff;
-      color: #000;
+      color: #66bbff;
     }
     
     .article .contentBox .button h5:after {
       content: "";
       background: #66bbff;
+      color: #ffff;
       display: block;
       position: absolute;
       padding-top: 300%;
@@ -387,38 +387,7 @@ h2 {
    margin-left: auto;
   margin-right: auto;
 }
-.content{
-  max-width: 80ch;
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 75%;
-}
-#tittel{
-  font-size: 64px;
-}
-#contentimage{
-  display: block;
-  margin-left: 10px;
-  box-sizing: border-box;
-  border: 2px solid black;
-  object-fit: cover;
-}
-#sidetext{
-  margin-left: 30%;
-  max-width: 100ch;
 
-}
-.accessibility-container {
-  display: flex;
-}
-.accessibility-image {
-  flex-basis: 200px;
-  
-}
-.accessibility-text {
-  padding-left: 20px;
-}
 /*CSS til reflection essay page slutt*/
 
 
@@ -436,7 +405,6 @@ h2 {
    
    
    body{
-       display: grid;
        height: auto;
        grid-template-columns: 1fr;
        grid-template-rows: 100px 1fr auto;
@@ -504,7 +472,12 @@ h2 {
 }
 
 /*CSS til reflection essay page*/
-
+.essaytext {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+  line-height: 1.5;
+}
 .avsnitt1 {
    padding: 24px;
    width: 100%;
@@ -594,11 +567,6 @@ TOPICAL INFORMATION CSS 600px--
   padding-top: 1rem;
 }
 
-.topicalinfo-text1 {
-}
-
-.topicalinfo-text2 {
-}
 
 .topicalinfo-flexbox {
   grid-template-columns: repeat(1, 2fr);
@@ -621,11 +589,13 @@ TOPICAL INFORMATION CSS 600px--
 .topicalinfo-question1 h3{
     font-size: 21px;
     max-width: 100%;
+    padding-bottom: 2rem;
 }
 
 .topicalinfo-question2 h3{
   font-size: 21px;
   max-width: 100%;
+  padding-bottom: 2rem;
 }
 
 .topicalinfo-question2{
@@ -661,8 +631,6 @@ TOPICAL INFORMATION CSS 600px--
 
 @media  only screen and  (max-width:960px) and (min-width:600px){
    body{
-      display: grid;
-
       height: auto;
       grid-template-columns: 1fr;
       grid-template-rows: 100px 1fr auto;
@@ -732,7 +700,12 @@ width: 100%;
 }
 
 /*CSS til reflection essay page*/
-
+.essaytext {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+  line-height: 1.5;
+}
 .avsnitt1 {
    padding: 24px;
    width: 100%;
@@ -813,8 +786,9 @@ TOPICAL INFORMATION CSS 600px - 960px
 }
 
 .topicalinfo-header {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   font-size: 64px;
+  border-bottom: 3px solid black;
 }
 
 
@@ -853,12 +827,12 @@ TOPICAL INFORMATION CSS 600px - 960px
 }
 .topicalinfo-question1 h3{
     font-size: 21px;
-    max-width: 50%;
+    padding-bottom: 2rem;
 }
 
 .topicalinfo-question2 h3{
   font-size: 21px;
-  max-width: 50%;
+  padding-bottom: 2rem;
 }
 
 .topicalinfo-question2{
@@ -905,11 +879,13 @@ TOPICAL INFORMATION CSS 960px++
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 70vw;
 }
 
 .topicalinfo-header {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   font-size: 64px;
+  border-bottom: 3px solid black;
 }
 
 
@@ -946,12 +922,12 @@ TOPICAL INFORMATION CSS 960px++
 }
 .topicalinfo-question1 h3{
     font-size: 21px;
-    max-width: 50%;
+    padding-bottom: 2rem;
 }
 
 .topicalinfo-question2 h3{
   font-size: 21px;
-  max-width: 50%;
+  padding-bottom: 2rem;
 }
 
 .topicalinfo-question2{
@@ -969,12 +945,14 @@ TOPICAL INFORMATION CSS 960px++
 
 .topicalinfo-img1 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .topicalinfo-img2 {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   order: 2;
 }
 

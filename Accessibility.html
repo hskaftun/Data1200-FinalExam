@@ -1,73 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-   
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Final Exam</title>
-<link rel="stylesheet" type="text/css" href="style.css"    >
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="accessibility.css" />
 <style>
-  body {
-    font-family: "Lato", sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
   }
   
-  
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
   }
-  </style>
-  <script>
-    function openNav() {
-      document.getElementById("mySidebar").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft = "0";
-    }
-    function hiddenMenu(){
-      document.getElementById("hidden").style.display = "none";
-    }
-    function showMenu(){
-      document.getElementById("hidden").style.display = "";
-    }
-    </script>
-  </head>
-  <body>
+  function hiddenMenu(){
+    document.getElementById("hidden").style.display = "none";
+  }
+  function showMenu(){
+    document.getElementById("hidden").style.display = "";
+  }
+  </script>
+</head>
+<body>
 
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav();showMenu();">x</a>
-      <a id="welcome" href="index.html">Welcome</a>
-      <a id="reflectionessay" href="Reflectionessay.html">Reflection Essay</a>
-      <a id="accessibility" href="Accessibility.html">Accessibility</a>
-      <a id="topicalinfo" href="topicalinfo.html">Topical info</a>
-      <a id="fun" href="fun.html">Fun</a>
-    </div>
-    <header class="header">
-    <div id="main">
-      <button class="openbtn" id = "hidden"; onclick="openNav();hiddenMenu();">☰</button>  
-    </div>
-    <a href="index.html"><img class="logo" src="images/oslomet.png" /></a>
-    </header>
-
-  <div id="header"></div>
-    <div id="content">
-   
-<div class="intro"></div> 
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav();showMenu();">x</a>
+  <a href="#">Welcome</a>
+  <a href="#">Accessibility</a>
+  <a href="#">Topical info</a>
+  <a href="#">Fun</a>
+</div>
+<header class="header">
+<div id="main">
+  <button class="openbtn" id = "hidden"; onclick="openNav();hiddenMenu();">☰</button>  
+</div>
+<img class="logo"src="oslomet.png">
+</header>
 <div style="margin-top: 150px; text-align: center;" class="content">
-  <h1 id="tittel">Tittel</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate saepe deleniti nisi sapiente! Delectus, 
-      libero enim! Nostrum quas nulla ipsa, est veniam, excepturi quo aperiam explicabo eaque, voluptates sunt doloremque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nulla soluta tempora, nemo, maxime maiores fuga, vitae rem expedita cupiditate adipisci cumque voluptatum porro iure asperiores eaque id aliquid? Amet?</p>
-  
-  </div>
-  <div>
-  <img src="example.png" id="contentimage" width="90%" height="350px" style="margin-left:5%;"></img>
-  </div>
-  <div style="margin-left: 5%; margin-right: 5%;">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate voluptate omnis consequatur illo, dolorem saepe nam cumque optio deleniti tenetur quod porro molestias, tempore neque, vero placeat totam quaerat? Lorem ipsum 
+<h1 id="tittel">Tittel</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate saepe deleniti nisi sapiente! Delectus, 
+    libero enim! Nostrum quas nulla ipsa, est veniam, excepturi quo aperiam explicabo eaque, voluptates sunt doloremque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nulla soluta tempora, nemo, maxime maiores fuga, vitae rem expedita cupiditate adipisci cumque voluptatum porro iure asperiores eaque id aliquid? Amet?</p>
+
+</div>
+<div>
+<img src="example.png" id="contentimage" width="90%" height="350px" style="margin-left:5%;"></img>
+</div>
+<div style="margin-left: 5%; margin-right: 5%;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cupiditate voluptate omnis consequatur illo, dolorem saepe nam cumque optio deleniti tenetur quod porro molestias, tempore neque, vero placeat totam quaerat? Lorem ipsum 
         dolor sit amet consectetur adipisicing elit. Veritatis laudantium consequatur deleniti? Culpa voluptatum, expedita nisi ab eveniet harum facere aspernatur soluta suscipit beatae, cupiditate a modi sapiente sequi quos? Lorem ipsum dolor sit
         amet consectetur, adipisicing elit. Explicabo laborum blanditiis odio ullam omnis voluptatum nam quae rerum facilis ducimus, aspernatur debitis ipsum, nisi ex. Soluta natus nihil tempore omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Officia minus adipisci rerum aut nemo consectetur ullam quia debitis corrupti cum? Quia nulla doloremque eaque dolores. Ea rerum ab necessitatibus repellat!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem temporibus ipsam veniam
@@ -75,26 +65,27 @@
         quisquam veritatis architecto minus saepe illum enim eligendi molestias quis quaerat tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos et eligendi ipsam neque, porro corrupti voluptates ducimus. Autem a quidem dolorum
         saepe, doloremque laudantium sit aliquam molestias voluptas magnam est? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus quae corporis ex amet, quo cumque tempore provident, dignissimos sed molestias velit voluptatum nobis
         voluptatem ab atque. Sit quia praesentium ullam?</p>
+
+</div>
+<div>
+    <img src="example.png" id="contentimage" width="20%" height="350px" style="margin: 5%;"></img>
+    <h2 id="sidetext" style="float: left; margin-top: -425px;">Underoverskrift</h2>
+<p id="sidetext" style="float: left; margin-top: -375px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus porro dignissimos quam nihil fugit architecto id minus excepturi, non atque aliquam nobis iusto dolorum in praesentium 
+    cum esse illum. Laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quas qui, nisi aperiam illo nulla expedita omnis nostrum, aut, harum asperiores quo. Consequuntur sed, deserunt dolore debitis velit ratione nulla. 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis incidunt rem sit repudiandae aliquid deserunt, itaque distinctio accusantium, minima eius soluta cum possimus modi mollitia rerum! Mollitia doloremque adipisci tempore? 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur voluptate eius dolores illo fuga veniam enim laboriosam amet accusamus. Facilis maxime, voluptatum sit nulla debitis saepe. Sunt, aspernatur odit. Lorem ipsum dolor 
+    sit amet consectetur adipisicing elit. Quibusdam officiis deleniti perspiciatis et autem aperiam facere ad explicabo libero suscipit consectetur quae vitae quisquam, debitis corporis laborum ratione iusto voluptates. Lorem ipsum dolor sit, 
+    amet consectetur adipisicing elit. Minima, molestias labore quaerat at modi nihil sit magnam quam itaque sint voluptas ullam nemo delectus ab a aspernatur maiores quae ut?</p>
+</div>
+<div class="accessibility-container">
+  <div class="accesibility-image">
+    <img src="example.png" id="contentimage" width="250px" height="350px" style="margin-left: 75px;">
   </div>
-  <div>
-      <img src="example.png" id="contentimage" width="20%" height="350px" style="margin: 5%;"></img>
-      <h2 id="sidetext" style="float: left; margin-top: -425px;">Underoverskrift</h2>
-  <p id="sidetext" style="float: left; margin-top: -375px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus porro dignissimos quam nihil fugit architecto id minus excepturi, non atque aliquam nobis iusto dolorum in praesentium 
-      cum esse illum. Laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quas qui, nisi aperiam illo nulla expedita omnis nostrum, aut, harum asperiores quo. Consequuntur sed, deserunt dolore debitis velit ratione nulla. 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis incidunt rem sit repudiandae aliquid deserunt, itaque distinctio accusantium, minima eius soluta cum possimus modi mollitia rerum! Mollitia doloremque adipisci tempore? 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur voluptate eius dolores illo fuga veniam enim laboriosam amet accusamus. Facilis maxime, voluptatum sit nulla debitis saepe. Sunt, aspernatur odit. Lorem ipsum dolor 
-      sit amet consectetur adipisicing elit. Quibusdam officiis deleniti perspiciatis et autem aperiam facere ad explicabo libero suscipit consectetur quae vitae quisquam, debitis corporis laborum ratione iusto voluptates. Lorem ipsum dolor sit, 
-      amet consectetur adipisicing elit. Minima, molestias labore quaerat at modi nihil sit magnam quam itaque sint voluptas ullam nemo delectus ab a aspernatur maiores quae ut?</p>
+  <div class="accessibility-text">
+    <h3>Skriv tittel her!</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iusto aliquam, voluptates, delectus quis exercitationem explicabo voluptatum vel dolorum deserunt natus, quibusdam reprehenderit placeat veniam? Molestiae ullam blanditiis aperiam provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente cumque numquam maxime iusto officia, soluta nihil sed, possimus excepturi et repellendus inventore in similique. Et earum provident corporis quo.</p>
   </div>
-  <div class="accessibility-container">
-    <div class="accesibility-image">
-      <img src="example.png" id="contentimage" width="250px" height="350px" style="margin-left: 75px;">
-    </div>
-    <div class="accessibility-text">
-      <h3>Skriv tittel her!</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iusto aliquam, voluptates, delectus quis exercitationem explicabo voluptatum vel dolorum deserunt natus, quibusdam reprehenderit placeat veniam? Molestiae ullam blanditiis aperiam provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente cumque numquam maxime iusto officia, soluta nihil sed, possimus excepturi et repellendus inventore in similique. Et earum provident corporis quo.</p>
-    </div>
-  </div>
+</div>
 
 <footer>
   <ul class="SoMe">
@@ -138,4 +129,4 @@
   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 ></script>
 </body>
-</html>
+</html> 

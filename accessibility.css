@@ -1,0 +1,114 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #99bbff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: 1px dotted black;
+    
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #99bbff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: white;
+  }
+  
+  #main {
+    position: fixed;
+    transition: margin-left 0.5s;
+    padding: 24px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #99bbff;
+    min-height: 54px;
+  }
+  .logo{
+      position: fixed;
+      display: block;
+      max-width: 125px;
+      display: inline;
+      right: 5px;
+      top: 5px;
+
+      
+  }
+  .header{
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      
+  }
+
+  .content{
+    max-width: 80ch;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+  }
+  #tittel{
+    font-size: 64px;
+  }
+  #contentimage{
+    display: block;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    object-fit: cover;
+  }
+  #sidetext{
+    margin-left: 30%;
+    max-width: 100ch;
+
+  }
+  .accessibility-container {
+    display: flex;
+  }
+  .accessibility-image {
+    flex-basis: 200px;
+    
+  }
+  .accessibility-text {
+    padding-left: 20px;
+  }
+
+
+  /*******************************
+  HUSK Å ENDRE SÅNN AT VI IKKE FÅR PLAGIAT ^^^^^
+  *******************************/
+  
