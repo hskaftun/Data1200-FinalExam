@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Final Exam</title>
+<link rel="stylesheet" type="text/css" href="style.css"    >
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  </style>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+    function hiddenMenu(){
+      document.getElementById("hidden").style.display = "none";
+    }
+    function showMenu(){
+      document.getElementById("hidden").style.display = "";
+    }
+    </script>
+  </head>
+  <body>
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav();showMenu();">x</a>
+      <a id="welcome" href="#">Welcome</a>
+      <a id="reflectionessay" href="Reflectionessay.html">Reflection Essay</a>
+      <a id="accessibility" href="#">Accessibility</a>
+      <a id="topicalinfo" href="#">Topical info</a>
+      <a id="fun" href="#">Fun</a>
+    </div>
+    <header class="header">
+    <div id="main">
+      <button class="openbtn" id = "hidden"; onclick="openNav();hiddenMenu();">☰</button>  
+    </div>
+    <img class="logo"src="images/oslomet.png">
+    </header>
+
+  <div id="header"></div>
+    <div id="content">
+   
+<div class="intro"></div> 
+
+
+
+</body>
+</html>
