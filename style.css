@@ -509,5 +509,41 @@ h2 {
    margin:  0.5rem 0.25rem;
 }
 
+.bildeavsnitt1 {
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   float: right;
+   width: 200px;
+   height: auto;
+}
+
+.bildeavsnitt2 {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.bildeavsnitt3 {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+.bildeavsnitt4 {
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 200px;
+  height: auto;
+}
 
 }
