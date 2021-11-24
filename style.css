@@ -1,0 +1,509 @@
+
+
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body{
+   display: grid;
+   grid-template-areas: 
+   "header"
+   "content"
+   "footer";
+   height: 2000px;
+   grid-template-rows: 100px 1fr 400px;
+   line-height: 1.5;
+
+}
+
+#content{
+   display: grid;
+   grid-template-rows: 3fr 7fr ;
+   background: lightgrey;
+
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #99bbff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border: 1px dotted black;
+  
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/*Hover effekter til sidebar*/
+
+#welcome:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#accessibility:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#topicalinfo:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#fun:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+
+/*Hover effekter til sidebar slutt*/
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#mySidebar ul li a:hover{
+  background:#ff6e00;
+  border-radius: 2px;
+}
+
+.openbtn {
+  font-size: 26px;
+  cursor: pointer;
+  background-color: #99bbff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: white;
+}
+
+#main {
+  position: fixed;
+  transition: margin-left 0.5s;
+  padding: 24px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #99bbff;
+  min-height: 103px;
+}
+.logo{
+    position: fixed;
+    display: block;
+    max-width: 125px;
+    display: inline;
+    right: 5px;
+    top: 5px;
+
+    
+}
+.header{
+    grid-area: header;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   
+    z-index: 99;
+    display: flex;
+    
+}
+
+.intro{
+  
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: relative;
+   background: grey;
+     
+}
+.intro:before{
+   content: '';
+   background: url(./images/1homepage.jpg) no-repeat center center/cover;
+   opacity: 0.4;
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+
+
+             
+.article{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 50px 2fr 3fr 2fr;
+   grid-gap: 1rem;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   border: none;
+   margin-bottom: 1rem;
+}
+.article > div:nth-child(1){
+   grid-column: 1/span 3;
+}
+.article > div:nth-child(2){
+   grid-column: 1/span 2;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.article > div:last-child{
+   grid-column-start: 4 ;
+   grid-column-end: 2;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.article > div:nth-child(3){
+   background: rgb(53, 51, 51);
+   border-radius: 0 2rem 0 2rem;
+   color: white;
+}
+.article > div:nth-child(7){
+   background: rgb(202, 81, 81);
+   border-radius:  2rem 0 2rem 0 ;
+   color: white;
+}
+.article > div{
+   border: none;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   padding: 0.5rem;
+   
+}
+/*<------WELCOME---------->*/
+.article .contentTittel{
+   background: none;
+   padding: 20px 30px;
+
+}
+.article .contentTittel h3{
+   font-size: 2rem;
+   font-weight: bolder;
+}
+
+.article .contentBox img{
+  height: 260px;
+
+}
+.article .contentBox .boxInclusive{
+   border: none;
+   background: none;
+   margin: 0.75rem;
+   height: 100%;
+}
+   .article .contentBox .boxInclusive h5{
+       margin-bottom: 40px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient;
+font-family: 'Oswald', sans-serif;
+   
+}
+.article,a{
+  text-decoration: none;
+
+}
+.article .contentBox .button h5 {
+  margin: auto;
+  margin-top: 40px;
+}
+.article .contentBox .button h5 {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #66bbff;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+
+    
+    .article .contentBox .button h5:hover {
+      background: #fff;
+      box-shadow: 0px 2px 10px 5px #66bbff;
+      color: #000;
+    }
+    
+    .article .contentBox .button h5:after {
+      content: "";
+      background: #66bbff;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .article .contentBox .button h5:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+    
+    .article .contentBox .button h5:focus { outline:0; }
+.article .contentBox h3{
+   font-size: 1.5rem;
+   margin:  0.5rem 0.25rem;
+}
+
+
+/*CSS til reflection essay page*/
+.essaytext {
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 30px;
+   line-height: 1.5;
+}
+
+#headingessay {
+   text-align: center;
+   font-size: 45px;
+}
+
+h2 {
+   font-size: 21px;
+}
+
+.avsnitt1 {
+  padding: 24px;
+  width: 100%;
+  background-color: #99bbff;
+}
+
+.avsnitt2 {
+   padding: 24px;
+   padding-bottom: 110px;
+   width: 100%;
+   min-height: fit-content;
+   background-color: #99bbff;
+ }
+
+ .avsnitt3 {
+   padding: 24px;
+   padding-bottom: 110px;
+   width: 100%;
+   background-color: #99bbff;
+ }
+
+ .avsnitt4 {
+   padding: 24px;
+   padding-bottom: 70px;
+   width: 100%;
+   background-color: #99bbff;
+ }
+
+ .bildeavsnitt1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: right;
+    width: 400px;
+    height: auto;
+ }
+
+ .bildeavsnitt2 {
+   margin-right: 10px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   position: relative;
+   float: left;
+   width: 400px;
+   height: auto;
+}
+
+.bildeavsnitt3 {
+   margin-right: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   float: right;
+   width: 400px;
+   height: auto;
+}
+
+.bildeavsnitt4 {
+   margin-right: 10px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   float: left;
+   width: 400px;
+   height: auto;
+}
+/*CSS til reflection essay page slutt*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width:600px){
+   *{
+      padding: 0;
+      margin: 0; 
+      box-sizing: border-box;
+      font-size: 16px;
+   }
+   
+   body{
+       display: grid;
+       grid-template-areas: 
+       "header"
+       "content"
+       "footer";
+       height: auto;
+       grid-template-columns: 1fr;
+       grid-template-rows: 150px 1fr auto;
+   
+   }
+   #content{
+      grid-area: content;
+      display: grid;
+      grid-template-rows: auto 1fr ;
+      background: lightgrey;
+ 
+  }
+  .intro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   background: grey;
+     
+}
+
+.intro:before{
+   content: '';
+   background: url(./images/1homepage.jpg) no-repeat center center/cover;
+   opacity: 0.4;
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.article{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: repeat(7,auto);
+   grid-gap: 1rem;
+   margin-left: 1vw;
+   margin-right: 1vw;
+   border: none;
+   margin-bottom: 1rem;
+}
+.article > div:nth-child(1){
+   grid-column: 1/span 1;
+}
+.article > div:nth-child(2){
+   grid-column: 1/span 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.article > div:last-child{
+   grid-column-start: 1 ;
+   grid-column-end: 2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.article > div:nth-child(3){
+   background: rgb(53, 51, 51);
+   border-radius: 0 2rem 0 2rem;
+   color: white;
+}
+.article > div:nth-child(7){
+   background: rgb(202, 81, 81);
+   border-radius:  2rem 0 2rem 0 ;
+   color: white;
+}
+.article > div{
+   border: none;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   padding: 0.5rem;
+   
+}
+.article .contentTittel{
+   background: none;
+   padding: 20px 30px;
+
+}
+.article .contentTittel h3{
+   font-size: 2rem;
+   font-weight: bolder;
+}
+.article .contentBox img{
+   height: 260px;
+   width: 100%;
+   
+}
+.article .contentBox .boxInclusive{
+   border: none;
+   background: none;
+   margin: 0.75rem;
+}
+
+.article .contentBox h5{
+   display: block;
+   width: 70%;
+   padding: 0.25rem 1rem;
+   border-radius: 1rem;
+}
+.article .contentBox h3{
+   font-size: 1.5rem;
+   margin:  0.5rem 0.25rem;
+}
+
+
+}
