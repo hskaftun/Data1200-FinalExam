@@ -53,32 +53,6 @@ body{
   color: white;
 }
 
-/*Hover effekter til sidebar*/
-
-#welcome:hover {
-   background-color: white;
-   color:  #99bbff;
-}
-#reflectionessay:hover {
-   background-color: white;
-   color:  #99bbff;
-}
-#accessibility:hover {
-   background-color: white;
-   color:  #99bbff;
-}
-#topicalinfo:hover {
-   background-color: white;
-   color:  #99bbff;
-}
-#fun:hover {
-   background-color: white;
-   color:  #99bbff;
-}
-
-/*Hover effekter til sidebar slutt*/
-
-
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -114,6 +88,7 @@ body{
   background-color: #99bbff;
   min-height: 103px;
 }
+
 .logo{
     position: fixed;
     display: block;
@@ -122,29 +97,25 @@ body{
     right: 5px;
     top: 5px;
 
-    
 }
 .header{
     grid-area: header;
     position: fixed;
     top: 0px;
     width: 100%;
-   
     z-index: 99;
-    display: flex;
-    
+    display: flex; 
 }
 
 .intro{
-  
    display: flex;
    flex-direction: row;
    align-items: center;
    position: relative;
    background: grey;
-     
 }
-.intro:before{
+
+.intro:before  {
    content: '';
    background: url(./images/1homepage.jpg) no-repeat center center/cover;
    opacity: 0.4;
@@ -154,11 +125,8 @@ body{
    width: 100%;
    height: 100%;
 }
-
-
-
-             
-.article{
+          
+.article {
    display: grid;
    grid-template-columns: repeat(3,1fr);
    grid-template-rows: 50px 2fr 3fr 2fr;
@@ -168,15 +136,18 @@ body{
    border: none;
    margin-bottom: 1rem;
 }
+
 .article > div:nth-child(1){
    grid-column: 1/span 3;
 }
+
 .article > div:nth-child(2){
    grid-column: 1/span 2;
    display: flex;
    flex-direction: row;
    align-items: center;
 }
+
 .article > div:last-child{
    grid-column-start: 4 ;
    grid-column-end: 2;
@@ -184,30 +155,33 @@ body{
    flex-direction: row;
    align-items: center;
 }
+
 .article > div:nth-child(3){
    background: rgb(53, 51, 51);
    border-radius: 0 2rem 0 2rem;
    color: white;
 }
+
 .article > div:nth-child(7){
    background: rgb(202, 81, 81);
    border-radius:  2rem 0 2rem 0 ;
    color: white;
 }
+
 .article > div{
    border: none;
    background: white;
    display: flex;
    flex-direction: column;
    padding: 0.5rem;
-   
 }
+
 /*<------WELCOME---------->*/
 .article .contentTittel{
    background: none;
    padding: 20px 30px;
-
 }
+
 .article .contentTittel h3{
    font-size: 2rem;
    font-weight: bolder;
@@ -215,32 +189,34 @@ body{
 
 .article .contentBox img{
   height: 260px;
-
 }
+
 .article .contentBox .boxInclusive{
    border: none;
    background: none;
    margin: 0.75rem;
    height: 100%;
 }
-   .article .contentBox .boxInclusive h5{
-       margin-bottom: 40px;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-background: linear-gradient;
-font-family: 'Oswald', sans-serif;
-   
+
+.article .contentBox .boxInclusive h5{
+   margin-bottom: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient;
+   font-family: 'Oswald', sans-serif;
 }
+
 .article,a{
   text-decoration: none;
-
 }
+
 .article .contentBox .button h5 {
   margin: auto;
   margin-top: 40px;
 }
+
 .article .contentBox .button h5 {
   text-align: center;
   text-transform: uppercase;
@@ -259,8 +235,6 @@ font-family: 'Oswald', sans-serif;
   box-shadow: 0 5px 15px #193047;
   border-radius: 4px;
 }
-
-
     
     .article .contentBox .button h5:hover {
       background: #fff;
@@ -294,6 +268,30 @@ font-family: 'Oswald', sans-serif;
    margin:  0.5rem 0.25rem;
 }
 
+/*Hover effekter til sidebar*/
+
+#welcome:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#reflectionessay:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#accessibility:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#topicalinfo:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+#fun:hover {
+   background-color: white;
+   color:  #99bbff;
+}
+
+/*Hover effekter til sidebar slutt*/
 
 /*CSS til reflection essay page*/
 .essaytext {
@@ -424,8 +422,6 @@ width: 100%;
   .intro{
    display: flex;
    flex-direction: column;
-  
-     
 }
 
 .article{
@@ -438,32 +434,31 @@ width: 100%;
    border: none;
    margin-bottom: 1rem;
 }
+
 .article > div:nth-child(1){
    grid-column: 1/span 1;
 }
+
 .article > div:nth-child(2){
    grid-column: 1/span 1;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
+
 .article > div:last-child{
    grid-column-start: 1 ;
    grid-column-end: 2;
    display: flex;
    flex-direction: column;
    align-items: center;
-
-
 }
 
 
 .article .contentBox img{
    height: 260px;
    width: 100%;
-   
 }
-
 
 .article .contentBox h5{
    display: block;
@@ -471,10 +466,13 @@ width: 100%;
    padding: 0.25rem 1rem;
    border-radius: 1rem;
 }
+
 .article .contentBox h3{
    font-size: 1.5rem;
    margin: 0.5rem 0.25rem;
 }
+
+/*CSS til reflection essay page*/
 
 .avsnitt1 {
    padding: 24px;
@@ -515,7 +513,6 @@ width: 100%;
    margin-bottom: 5px;
    width: 250px;
    height: auto;
-   
 }
 
 .bildeavsnitt2 {
@@ -544,6 +541,12 @@ width: 100%;
 
 }
 
+
+
+
+
+
+
 @media  only screen and  (max-width:800px) and (min-width:501px){
    body{
       display: grid;
@@ -551,25 +554,17 @@ width: 100%;
       height: auto;
       grid-template-columns: 1fr;
       grid-template-rows: 100px 1fr auto;
- 
   }
 
    #content{
       grid-area: content;
       display: grid;
-    
-
       width: 100%;
       height: 80%;
- 
-  
-
  }
  .intro{
   display: flex;
   flex-direction: column;
- 
-    
 }
 
 .article{
@@ -582,32 +577,30 @@ width: 100%;
   border: none;
   margin-bottom: 1rem;
 }
+
 .article > div:nth-child(1){
   grid-column: 1/span 2;
 }
+
 .article > div:nth-child(2){
   grid-column: 1/span 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .article > div:last-child{
   grid-column-start: 1 ;
   grid-column-end: 3;
   display: flex;
   flex-direction: row;
   align-items: center;
-
-
 }
-
 
 .article .contentBox img{
   height: 260px;
   width: 100%;
-  
 }
-
 
 .article .contentBox h5{
   display: block;
@@ -615,14 +608,18 @@ width: 100%;
   padding: 0.25rem 1rem;
   border-radius: 1rem;
 }
+
 .article .contentBox h3{
   font-size: 1.5rem;
   margin: 0.5rem 0.25rem;
 }
+
 .article .contentBox img{
    height: 260px;
 width: 100%;
 }
+
+/*CSS til reflection essay page*/
 
 .avsnitt1 {
    padding: 24px;
