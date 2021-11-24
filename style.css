@@ -550,6 +550,30 @@ width: 100%;
 width: 100%;
 }
 
+.avsnitt1 {
+   padding: 24px;
+   width: 100%;
+   background-color: #99bbff;
+ }
+ 
+ .avsnitt2 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+  }
+ 
+  .avsnitt3 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+  }
+ 
+  .avsnitt4 {
+    padding: 24px;
+    width: 100%;
+    background-color: #99bbff;
+  }
+
 
 .bildeavsnitt1 {
    margin-right: 5px;
