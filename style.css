@@ -353,7 +353,6 @@ h2 {
    margin-right: 10px;
    margin-left: 5px;
    margin-bottom: 5px;
-   position: relative;
    float: left;
    width: 400px;
    height: auto;
@@ -513,17 +512,15 @@ h2 {
    margin-right: 5px;
    margin-left: 5px;
    margin-bottom: 5px;
-   float:inline-end;
    width: 200px;
    height: auto;
+   
 }
 
 .bildeavsnitt2 {
   margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
-  position: relative;
-  float:inline-end;
   width: 200px;
   height: auto;
 }
@@ -532,7 +529,6 @@ h2 {
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  float:inline-end;
   width: 200px;
   height: auto;
 }
@@ -541,7 +537,6 @@ h2 {
   margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
-  float:inline-end;
   width: 200px;
   height: auto;
 }
