@@ -297,8 +297,8 @@ font-family: 'Oswald', sans-serif;
 
 /*CSS til reflection essay page*/
 .essaytext {
-   margin-left: 15%;
-   margin-right: 15%;
+   margin-left: 5%;
+   margin-right: 5%;
    margin-top: 30px;
    line-height: 1.5;
 }
@@ -351,6 +351,8 @@ h2 {
     height: auto;
     max-height: 90%;
     max-width: 90%;
+    margin-left: auto;
+  margin-right: auto;
  }
 
  .bildeavsnitt2 {
@@ -361,6 +363,8 @@ h2 {
    height: auto;
    max-height: 90%;
    max-width: 90%;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .bildeavsnitt3 {
@@ -371,6 +375,8 @@ h2 {
    height: auto;
    max-height: 90%;
    max-width: 90%;
+   margin-left: auto;
+  margin-right: auto;
 }
 
 .bildeavsnitt4 {
@@ -381,6 +387,8 @@ h2 {
    height: auto;
    max-height: 90%;
    max-width: 90%;
+   margin-left: auto;
+  margin-right: auto;
 }
 /*CSS til reflection essay page slutt*/
 
