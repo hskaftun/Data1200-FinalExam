@@ -316,28 +316,33 @@ h2 {
   padding: 24px;
   width: 100%;
   background-color: #99bbff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .avsnitt2 {
    padding: 24px;
-   padding-bottom: 110px;
    width: 100%;
    min-height: fit-content;
    background-color: #99bbff;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
  }
 
  .avsnitt3 {
    padding: 24px;
-   padding-bottom: 110px;
    width: 100%;
    background-color: #99bbff;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
  }
 
  .avsnitt4 {
    padding: 24px;
-   padding-bottom: 70px;
    width: 100%;
    background-color: #99bbff;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
  }
 
  .bildeavsnitt1 {
@@ -345,8 +350,9 @@ h2 {
     margin-left: 5px;
     margin-bottom: 5px;
     float: right;
-    width: 400px;
     height: auto;
+    max-height: 90%;
+    max-width: 90%;
  }
 
  .bildeavsnitt2 {
@@ -356,6 +362,8 @@ h2 {
    float: left;
    width: 400px;
    height: auto;
+   max-height: 90%;
+   max-width: 90%;
 }
 
 .bildeavsnitt3 {
@@ -365,6 +373,8 @@ h2 {
    float: right;
    width: 400px;
    height: auto;
+   max-height: 90%;
+   max-width: 90%;
 }
 
 .bildeavsnitt4 {
@@ -374,6 +384,8 @@ h2 {
    float: left;
    width: 400px;
    height: auto;
+   max-height: 90%;
+   max-width: 90%;
 }
 /*CSS til reflection essay page slutt*/
 
