@@ -972,6 +972,50 @@ TOPICAL INFORMATION CSS 960px++
 TOPICAL INFORMATION CSS 960px++
 */
 
+/*
+ACCESIBILITY PAGE CSS 960PX++
+*/
+
+.header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+    
+}
+
+.content{
+  max-width: 80ch;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+#tittel{
+  font-size: 64px;
+}
+#contentimage{
+  display: block;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  object-fit: cover;
+}
+#sidetext{
+  margin-left: 30%;
+  max-width: 100ch;
+
+}
+.accessibility-container {
+  display: flex;
+}
+.accessibility-image {
+  flex-basis: 200px;
+  
+}
+.accessibility-text {
+  padding-left: 20px;
+}
+
 
 
 
