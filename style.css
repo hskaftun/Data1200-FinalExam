@@ -4,9 +4,9 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
-  font-size: 16px;
 }
 body{
+   font-size: 16px;
    display: grid;
    grid-template-areas: 
    "header"
@@ -118,6 +118,7 @@ body{
 .intro:before  {
    content: '';
    background: url(./images/1homepage.jpg) no-repeat center center/cover;
+   background-attachment: fixed;
    opacity: 0.4;
    position: absolute;
    top:0;
@@ -687,4 +688,135 @@ width: 100%;
   height: auto;
 }
 
+
+
 }
+
+/***************
+FOOTER
+***************/
+
+footer {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   background: #99bbff;
+   height: 15rem;
+   padding: 20px 50px;
+ }
+ 
+ footer .SoMe,
+ footer .foot_menu {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+ }
+ 
+ footer .SoMe li,
+ footer .foot_menu li {
+   list-style: none;
+ }
+ 
+ footer .SoMe li a {
+   font-size: 3rem;
+   color: #f4f4f4;
+   margin: 0 0.7rem;
+   display: inline-block;
+   transition: 0.5s;
+ }
+ 
+ footer .SoMe li a:hover {
+   transform: translateY(-7px);
+ }
+ 
+ footer .foot_menu li a {
+   font-size: 1.5rem;
+   color: #f4f4f4;
+   margin: 0 0.5rem;
+   display: inline-block;
+   text-decoration: none;
+   opacity: 0.7;
+ }
+ footer .foot_menu li a:hover {
+   opacity: 100;
+ }
+
+
+/*
+TOPICAL INFORMATION CSS
+*/
+.topicalinfo-container {
+	max-width: 800px;
+	margin: 150px auto 0px auto;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicalinfo-paragraph {
+  max-width: 70ch;
+  line-height: 1.5;
+  padding-top: 2rem;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+.topicalinfo-text {
+  padding-left: 1rem;
+}
+
+.topicalinfo-flexbox {
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.topicalinfo-question1{
+    width: 90%;
+    left: 50%;
+    transform: translate(-50,-50);
+    text-align:left; 
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #99bbff;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+.topicalinfo-question1 h3{
+    font-size: 21px;
+}
+.topicalinfo-question1 p{
+    margin: 10px o 40px;
+}
+.topicalinfo-question2{
+    width: 90%;
+    left: 50%;
+    transform: translate(-50,-50);
+    text-align:left; 
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #99bbff;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.topicalinfo-img1 {
+  max-width: 100%;
+}
+
+.topicalinfo-img2 {
+  max-width: 100%;
+}
+
+.topicalinfo-question2 h3{
+   font-size: 21px;
+}
+
+/*
+TOPICAL INFORMATION CSS
+*/
