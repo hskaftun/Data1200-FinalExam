@@ -521,7 +521,7 @@ h2 {
   margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 200px;
+  width: fit-content;
   height: auto;
 }
 
