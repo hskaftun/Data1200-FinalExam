@@ -6,26 +6,12 @@
 }
 body{
    display: grid;
-   grid-template-areas: 
-   "header"
-   "content"
-   "footer";
    height: 2000px;
    grid-template-rows: 100px 1fr 400px;
 
 }
-/*
-div{
-   background: lightgray;
-   border: thin solid black;
-}
-*/
-#content{
-   display: grid;
-   grid-template-rows: 3fr 7fr ;
-   background: lightgrey;
 
-}
+
 
 .sidebar {
   height: 100%;
