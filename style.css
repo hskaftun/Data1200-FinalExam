@@ -592,6 +592,7 @@ TOPICAL INFORMATION CSS 600px--
   max-width: 90%;
   max-height: 90%;
   padding-bottom: 2rem;
+  object-fit: contain;
 }
 
 .topicalinfo-img2 {
@@ -600,6 +601,7 @@ TOPICAL INFORMATION CSS 600px--
   max-height: 90%;
   padding-top: 2rem;
   order: 2;
+  object-fit: contain;
 }
 
 /*
