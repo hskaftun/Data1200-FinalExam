@@ -261,6 +261,8 @@ display: inline-block;
  .containert img{
   margin-left: auto;
   margin-right: auto;
+  width: 700px;
+  height: 400px;
 }
 .overtours{}
 @media  (max-width:1352px){
@@ -324,6 +326,40 @@ display: inline-block;
   .firstpart .heading h1 span{
     font-size:28px;
 }
+}
+
+
+@media only screen and (max-width: 600px){
+  
+  .text-section{
+    display: flex;
+    justify-content: center;
+  }
+
+  .containert {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9rem;
+    max-width: 800px;
+    width: 80%;
+  }
+
+  .containert h1{
+      border-bottom: 2px solid orange;
+  }
+
+   .containert img {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-height: 90%;
+    max-width: 90%;
+  }
+
+
+}
 /*<---Finish texts-->*/
 
 /*<---FINISH FUN PAGE--->
+
+
