@@ -404,15 +404,6 @@ body{
 /*CSS til reflection essay page slutt*/
 
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 600px){
 *{
   padding: 0;
@@ -828,11 +819,8 @@ ACCESIBILITY PAGE CSS 600px--
 
 
 
-@media  only screen and  (max-width:960px) and (min-width:600px){
+@media  only screen and  (max-width:800px) and (min-width:501px){
 
-/*
-REFLECTIOIN ESSAY 960px - 600px
-*/
 
 .reflectionessay-title {
   margin: auto;
@@ -1134,7 +1122,17 @@ ACCESIBILITY PAGE CSS 960PX++
 
 
 
+<<<<<<< HEAD
 @media only screen and (min-width: 960px) {
+=======
+
+
+
+
+
+
+@media only screen and (max-width: 500) {
+>>>>>>> ac70671f0e9ffa134ad0eb4a1d81998031d35eae
 
 /*
 REFLECTIOIN ESSAY 960px++
