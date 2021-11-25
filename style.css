@@ -330,7 +330,6 @@ body{
 }
 
 .avsnitt1 {
-  padding: 24px;
   width: 100%;
   background-color: #99bbff;
   display: grid;
@@ -338,7 +337,6 @@ body{
 }
 
 .avsnitt2 {
-   padding: 24px;
    width: 100%;
    background-color: #99bbff;
    display: grid;
@@ -346,7 +344,6 @@ body{
  }
 
  .avsnitt3 {
-   padding: 24px;
    width: 100%;
    background-color: #99bbff;
    display: grid;
@@ -354,7 +351,6 @@ body{
  }
 
  .avsnitt4 {
-   padding: 24px;
    width: 100%;
    background-color: #99bbff;
    display: grid;
