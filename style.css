@@ -534,6 +534,7 @@ REFLECTIOIN ESSAY 600px--
   padding-top: 2rem;
   border-bottom: 3px solid black;
   display: table;
+  margin-bottom: 2rem;
 }
 
 .essaytext {
@@ -544,27 +545,33 @@ max-width: 95vw;
 }
 
 .reflectionessay-text1 {
-padding: 2rem;
+padding-top: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
 order: 1;
 }
 
 .reflectionessay-text2 {
-padding: 2rem;
-order: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .reflectionessay-text3 {
-padding: 2rem;
-order: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .reflectionessay-text4 {
-padding: 2rem;
-order: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .reflectionessay-paragraph{
 padding-top: 2rem;
+}
+
+.reflectionessay-h2 {
+  font-size: 26px;
 }
 
 
