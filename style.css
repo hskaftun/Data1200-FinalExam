@@ -942,7 +942,6 @@ TOPICAL INFORMATION CSS 960px++
 .topicalinfo-question2{
     width: 90%;
     left: 50%;
-    transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
     margin-bottom: 2em;
@@ -976,47 +975,82 @@ TOPICAL INFORMATION CSS 960px++
 ACCESIBILITY PAGE CSS 960PX++
 */
 
-.header{
-  position: fixed;
-  top: 0px;
-  width: 100%;
-    
+.accessibility-title {
+  padding: 2rem;
 }
 
-.content{
-  max-width: 80ch;
+.accessibility-container {
+  margin: 150px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  background-color: #99bbff;
+}
+
+.accessibility-title{
   display: block;
   text-align: center;
   margin: auto;
   width: 75%;
 }
-#tittel{
-  font-size: 64px;
-}
-#contentimage{
-  display: block;
-  margin-left: 10px;
-  box-sizing: border-box;
-  border: 2px solid black;
-  object-fit: cover;
-}
-#sidetext{
-  margin-left: 30%;
-  max-width: 100ch;
+
+.acessibility-subheader {
 
 }
-.accessibility-container {
-  display: flex;
+
+.accessibility-info1 {
+  padding: 2rem;
+  grid-template-columns: repeat(1, 2fr);
+  display: grid;
 }
-.accessibility-image {
-  flex-basis: 200px;
-  
+
+.accessibility-info2 {
+  padding: 2rem;
+  grid-template-columns: repeat(2, 2fr);
+  display: grid;
 }
+
+.accessibility-info3 {
+  padding: 2rem;
+  grid-template-columns: repeat(2, 2fr);
+  display: grid;
+}
+
+.accessibility-paragraph {
+  max-width: 70ch;
+}
+
 .accessibility-text {
-  padding-left: 20px;
+  justify-content: center;
 }
 
+.accessibility-img1 {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
 
+.accessibility-img2 {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  padding-left: 2rem;
+  order: 2;
+}
+
+.accessibility-paragraph2 {
+  order: 1;
+}
+
+.accessibility-img3 {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  padding-right: 2rem;
+}
 
 
 
