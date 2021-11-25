@@ -294,8 +294,8 @@ body{
 
 /*CSS til reflection essay page*/
 .essaytext {
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
    margin-top: 30px;
    line-height: 1.5;
 }
@@ -401,7 +401,7 @@ h2 {
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
    
    
    body{
@@ -547,6 +547,7 @@ h2 {
 TOPICAL INFORMATION CSS 600px--
 */
 .topicalinfo-container {
+margin: 50px auto 0px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -726,7 +727,7 @@ ACCESIBILITY PAGE CSS 960PX++
 }
 
 
-@media  only screen and  (max-width:960px) and (min-width:600px){
+@media  only screen and  (max-width:800px) and (min-width:501px){
    body{
       height: auto;
       grid-template-columns: 1fr;
@@ -874,7 +875,7 @@ width: 100%;
 TOPICAL INFORMATION CSS 600px - 960px
 */
 .topicalinfo-container {
-	margin: 150px auto 0px auto;
+margin: 50px auto 0px auto;	
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1064,7 +1065,7 @@ ACCESIBILITY PAGE CSS 960PX++
 TOPICAL INFORMATION CSS 960px++
 */
 .topicalinfo-container {
-	margin: 150px auto 0px auto;
+margin: 50px auto 0px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
