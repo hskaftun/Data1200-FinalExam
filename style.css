@@ -1268,7 +1268,8 @@ footer {
    width: 100%;
    background: #99bbff;
    height: 15rem;
-   padding: 20px 50px;
+   padding: 0.5rem;
+   padding-top: 2rem;
  }
  
  footer .SoMe,
