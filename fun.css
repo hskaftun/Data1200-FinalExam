@@ -101,7 +101,6 @@ div{
 }
 
 .header{
-    
     top: 0px;
     width: 100%;
     z-index: 99;
@@ -144,9 +143,9 @@ div{
   background-image: linear-gradient(to bottom,whitesmoke 20%,whitesmoke 100%),url(funinoslo.jpg);
   background-position: center;
   background-size: cover;
-  padding-left: 1%;
-  
+  padding-left: 1%; 
 }
+
  .heading{
    width: 30%;
    text-align: center;
@@ -155,12 +154,11 @@ div{
    line-height: 1.4;
    font-size: 18px;
  }
+
  .heading h1{
    font-size: 40px;
-
  }
 
- 
  .tours{
    width: 70%;
    display: flex;
