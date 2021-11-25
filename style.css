@@ -528,25 +528,29 @@ REFLECTIOIN ESSAY 600px--
 
 .essaytext {
 line-height: 1.5;
-max-width: 80%;
 padding-bottom: 2rem;
 margin: auto;
+max-width: 95vw;
 }
 
 .reflectionessay-text1 {
 padding: 2rem;
+order: 1;
 }
 
 .reflectionessay-text2 {
 padding: 2rem;
+order: 1;
 }
 
 .reflectionessay-text3 {
 padding: 2rem;
+order: 1;
 }
 
 .reflectionessay-text4 {
 padding: 2rem;
+order: 1;
 }
 
 .reflectionessay-paragraph{
@@ -585,32 +589,32 @@ background-color: #99bbff;
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
+  order: 2;
 }
 
 .bildeavsnitt2 {
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
+  order: 2;
 }
 
 .bildeavsnitt3 {
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
+  order: 2;
 }
 
 .bildeavsnitt4 {
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
+  order: 2;
 }
 
 /*
@@ -875,9 +879,7 @@ background-color: #99bbff;
   margin: auto;
   width: 100%;
   height: 100%;
-  order: 2;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
@@ -885,9 +887,7 @@ background-color: #99bbff;
   margin: auto;
   width: 100%;
   height: 100%;
-  order: 2;
-  padding: 2rem;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
@@ -895,9 +895,7 @@ background-color: #99bbff;
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  order: 1;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
@@ -905,9 +903,7 @@ background-color: #99bbff;
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
-  order: 1;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
@@ -1155,8 +1151,6 @@ padding-top: 2rem;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-order: 1;
-   
 }
  
 .avsnitt2 {
@@ -1164,7 +1158,6 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-order: 1;
 }
  
 .avsnitt3 {
@@ -1172,7 +1165,7 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-order: 2;
+
 }
  
 .avsnitt4 {
@@ -1180,7 +1173,6 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-order: 2;
 }
 
 
@@ -1189,7 +1181,6 @@ order: 2;
   width: 100%;
   height: 100%;
   order: 2;
-  padding: 2rem;
   object-fit: contain;
 }
 
@@ -1198,7 +1189,6 @@ order: 2;
   width: 100%;
   height: 100%;
   order: 2;
-  padding: 2rem;
   object-fit: contain;
 }
 
@@ -1206,7 +1196,6 @@ order: 2;
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
   order: 1;
   object-fit: contain;
 }
@@ -1215,7 +1204,6 @@ order: 2;
   margin: auto;
   width: 100%;
   height: 100%;
-  padding: 2rem;
   order: 1;
   object-fit: contain;
 }

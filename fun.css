@@ -1,17 +1,23 @@
 *{
   padding: 0;
-  margin: 0; 
+  margin: 0;
   box-sizing: border-box;
   font-size: 18px;
 }
 body{
-   display: grid;
-   height: 2000px;
-   grid-template-rows: 100px 1fr 400px;
+
+
 
 }
+/*
+div{
+   background: lightgray;
+   border: thin solid black;
+}
+*/
 
 
+}
 
 .sidebar {
   height: 100%;
@@ -25,7 +31,6 @@ body{
   transition: 0.5s;
   padding-top: 60px;
   border: 1px dotted black;
-  
 }
 
 .sidebar a {
@@ -74,9 +79,8 @@ body{
   top: 0px;
   left: 0px;
   background-color: #99bbff;
-  min-height: 103px;
+  min-height: 54px;
 }
-
 .logo{
     position: fixed;
     display: block;
@@ -85,7 +89,6 @@ body{
     right: 5px;
     top: 5px;
 }
-
 .header{
     top: 0px;
     width: 100%;
@@ -93,88 +96,60 @@ body{
     display: flex;
 }
 
-/*Hover effekter til sidebar*/
-
-#welcome:hover {
-  background-color: white;
-  color:  #99bbff;
-}
-#reflectionessay:hover {
-  background-color: white;
-  color:  #99bbff;
-}
-#accessibility:hover {
-  background-color: white;
-  color:  #99bbff;
-}
-#topicalinfo:hover {
-  background-color: white;
-  color:  #99bbff;
-}
-#fun:hover {
-  background-color: white;
-  color:  #99bbff;
-}
-
-
 /*<--FUN PAGE START-->*/
 
  /*<---The box that includes little pictures,buttons-->*/
-.body{
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-image: linear-gradient(to bottom,whitesmoke 20%,whitesmoke 100%),url(funinoslo.jpg);
-  background-position: center;
-  background-size: cover;
-  padding-left: 1%; 
+.firstpart{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
-
  .heading{
-   width: 30%;
+   flex-basis: 40%;
    text-align: center;
    color: #000;
    font-family: Arial,Helvetica,sans-serif;
    line-height: 1.4;
    font-size: 18px;
+   padding: 0 1rem 1.5rem 1rem;
  }
-
  .heading h1{
    font-size: 40px;
+   padding-bottom: 20px;
  }
 
  .tours{
-   width: 70%;
+   gap:0.5rem;
+   flex:1;
    display: flex;
-   justify-content: space-around;
-
+   justify-content: space-evenly;
+   border:0.5rem solid white;
  }
  .places{
-   display: inline;
    text-align: center;
-   border-radius: 12px;
-
+   border-radius: 20px;
  }
  /*<---The orange boxes over the little pictures-->*/
- .places h2{
-   color: white;
-   font-size: 22px;
-   letter-spacing: 3px;
-   border-radius: 8px;
-   padding: 30px 30px;
-   margin-bottom: 1px;
+ #headingintours{
    background-color: orange;
+   border-radius: 10px;
+   height:5rem;
+   padding-top: 2rem;
+   margin-bottom: 1px;
  }
- 
- 
+ #headingintours h2{
+   font-size: 1.3rem;
+   color: white;
+ }
+
+
 /*<-------SEE MORE BUTTONS----->*/
 .btn{
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
   border-radius:12px;
   padding:12px 30px;
   border: .2rem solid black;
@@ -182,6 +157,23 @@ body{
   cursor: pointer;
   background: none;
 display: inline-block;
+}
+.heading .btn2{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius:18px;
+  padding:12px 30px;
+  border: .2rem solid black;
+  color: black;
+  cursor: pointer;
+  background: none;
+display: inline-block;
+}
+.btn2:hover{
+  background: orange;
+  color: #fff;
 }
 .btn:hover{
   background: orange;
@@ -191,14 +183,11 @@ display: inline-block;
 /*<---small picture frames-->*/
 .places img{
   border:3px solid orange
-
 }
 /*<---Big title, with text"FUN" in a decorated orange box-->*/
 .body .heading h1{
-
   color: var(--black);
   font-size: 3rem;
-
 }
 /* <----Make Tittle "Fun" ->Orange Fun--->*/
 .body .heading h1 span{
@@ -236,64 +225,105 @@ display: inline-block;
   padding: 2rem 0;
   padding-bottom: 3rem;
   font-size: 3.5rem;
-
+  z-index: -10;
 }
 /*<-----Enclose text "Fun"in an decorated orange box-->*/
 #å span{
   background: orange;
   color: #fff;
-  display: inline-block;
+  z-index: -15;
   padding: .5rem 3rem;
   font-size: 3.5rem;
   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
-
 }
 /*<----Finish decorated box--->*/
 /*<---Texts under title "FUN IN OSLO"-->*/
 .text-section{
-  margin-top: -800px;
+  display: flex;
+  justify-content: center;
+
 }
 .text-section p{
-
     font-family: Arial,Helvetica,sans-serif;
     line-height: 1.4;
     font-size: 18px;
-
 }
-.text-section .containert {
+.containert {
+
   margin-left: auto;
   margin-right: auto;
+  margin-top: 9rem;
   max-width: 800px;
 }
-
-.text-section .containert img{
+.containert h1{
+    border-bottom: 2px solid orange;
+}
+ .containert img{
   margin-left: auto;
   margin-right: auto;
 }
+.overtours{}
+@media  (max-width:1352px){
+  .firstpart .heading h1{
+    font-size: 30px;
+  }
+  .firstpart .heading h1 span{
+    font-size:30px;
+  }
+
+@media (max-width:1238px){
+  .firstpart{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .firstpart .heading h1{
+    font-size: 45px;
+  }
+  .heading{
+    flex-basis: 60%;
+  }
+  .firstpart .heading h1 span{
+    font-size: 45px;
+  }
+  .heading p{
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .tours{
+    flex-basis: 100%;
+  }
+}
+}
+@media  (max-width:940px){
+
+  .tours{
+    flex-wrap: wrap;
+  }
+  .overtours{
+    flex-basis: 100%;
+}
+  .places{
+    width:300px;
+    margin:10px;
+  }
+  .overplaces{
+    display: flex;
+    /*flex-basis: 100%;to get column*/
+    justify-content: center;
+  }
+}
+@media (max-width:776px) {
+  .heading {
+    flex-basis: 70%;
+  }
+}
+@media (max-width:510px) {
+  .firstpart .heading h1{
+    font-size: 28px;
+  }
+  .firstpart .heading h1 span{
+    font-size:28px;
+}
 /*<---Finish texts-->*/
-/*<---FINISH FUN PAGE*/
 
-@media  only screen and  (max-width:960px) and (min-width:600px){
-
-  body{
-    height: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr auto;
-}
-
- #content{
-    grid-area: content;
-    display: grid;
-    width: 100%;
-    height: 80%;
-}
-.intro{
-display: flex;
-flex-direction: column;
-}
-
-
-
-
-}
-
+/*<---FINISH FUN PAGE--->
