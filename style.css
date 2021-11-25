@@ -547,7 +547,7 @@ h2 {
 TOPICAL INFORMATION CSS 600px--
 */
 .topicalinfo-container {
-	margin: 50px auto 0px auto;
+margin: 50px auto 0px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -782,7 +782,7 @@ width: 100%;
 TOPICAL INFORMATION CSS 600px - 960px
 */
 .topicalinfo-container {
-	
+margin: 50px auto 0px auto;	
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -883,7 +883,7 @@ TOPICAL INFORMATION CSS 600px - 960px
 TOPICAL INFORMATION CSS 960px++
 */
 .topicalinfo-container {
-	margin: 150px auto 0px auto;
+margin: 50px auto 0px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
