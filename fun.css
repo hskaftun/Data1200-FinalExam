@@ -53,6 +53,7 @@ div{
   font-size: 36px;
   margin-left: 50px;
 }
+
 #mySidebar ul li a:hover{
   background:#ff6e00;
   border-radius: 2px;
@@ -81,6 +82,7 @@ div{
   background-color: #99bbff;
   min-height: 103px;
 }
+
 .logo{
     position: fixed;
     display: block;
@@ -89,11 +91,14 @@ div{
     right: 5px;
     top: 5px;
 }
+
 .header{
+    grid-area: header;
+    position: fixed;
     top: 0px;
     width: 100%;
     z-index: 99;
-    display: flex;
+    display: flex; 
 }
 
 /*<--FUN PAGE START-->*/
