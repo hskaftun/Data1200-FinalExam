@@ -554,19 +554,15 @@ TOPICAL INFORMATION CSS 600px--
 }
 
 .topicalinfo-flexbox {
-  grid-template-columns: repeat(1, 2fr);
   display: grid;
 }
 
 .topicalinfo-question1{
     width: 90%;
-    left: 50%;
-    transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
     margin-bottom: 2em;
     background-color: white;
-    display: grid;
     grid-template-columns: repeat(1, 2fr);
 }
 
@@ -584,8 +580,6 @@ TOPICAL INFORMATION CSS 600px--
 
 .topicalinfo-question2{
     width: 90%;
-    left: 50%;
-    transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
     margin-bottom: 2em;
