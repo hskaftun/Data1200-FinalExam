@@ -18,7 +18,6 @@ body{
    display: grid;
    grid-template-rows: 3fr 7fr ;
    background: lightgrey;
-
 }
 
 .sidebar {
@@ -33,7 +32,6 @@ body{
   transition: 0.5s;
   padding-top: 60px;
   border: 1px dotted black;
-  
 }
 
 .sidebar a {
@@ -56,6 +54,7 @@ body{
   font-size: 36px;
   margin-left: 50px;
 }
+
 #mySidebar ul li a:hover{
   background:#ff6e00;
   border-radius: 2px;
@@ -92,8 +91,8 @@ body{
     display: inline;
     right: 5px;
     top: 5px;
-
 }
+
 .header{
     grid-area: header;
     position: fixed;
@@ -232,34 +231,35 @@ body{
   border-radius: 4px;
 }
     
-    .article .contentBox .button h5:hover {
-      background: #fff;
-      box-shadow: 0px 2px 10px 5px #66bbff;
-      color: #66bbff;
-    }
+.article .contentBox .button h5:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #66bbff;
+  color: #66bbff;
+}
     
-    .article .contentBox .button h5:after {
-      content: "";
-      background: #66bbff;
-      color: #ffff;
-      display: block;
-      position: absolute;
-      padding-top: 300%;
-      padding-left: 350%;
-      margin-left: -20px !important;
-      margin-top: -120%;
-      opacity: 0;
-      transition: all 0.8s
-    }
+.article .contentBox .button h5:after {
+  content: "";
+  background: #66bbff;
+  color: #ffff;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
     
-    .article .contentBox .button h5:active:after {
-      padding: 0;
-      margin: 0;
-      opacity: 1;
-      transition: 0s
-    }
+.article .contentBox .button h5:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
     
-    .article .contentBox .button h5:focus { outline:0; }
+.article .contentBox .button h5:focus { outline:0; }
+
 .article .contentBox h3{
    font-size: 1.5rem;
    margin:  0.5rem 0.25rem;
@@ -271,18 +271,22 @@ body{
    background-color: white;
    color:  #99bbff;
 }
+
 #reflectionessay:hover {
    background-color: white;
    color:  #99bbff;
 }
+
 #accessibility:hover {
    background-color: white;
    color:  #99bbff;
 }
+
 #topicalinfo:hover {
    background-color: white;
    color:  #99bbff;
 }
+
 #fun:hover {
    background-color: white;
    color:  #99bbff;
@@ -302,7 +306,6 @@ body{
    text-align: center;
    font-size: 45px;
 }
-
 
 #moreresposibility {
   text-align: center;
@@ -337,7 +340,7 @@ body{
    width: 100%;
    background-color: #99bbff;
    display: grid;
-  grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(2, 1fr);
  }
 
  .avsnitt3 {
@@ -345,7 +348,7 @@ body{
    width: 100%;
    background-color: #99bbff;
    display: grid;
-  grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(2, 1fr);
  }
 
  .avsnitt4 {
@@ -411,26 +414,23 @@ body{
 
 
 
-
-
 @media only screen and (max-width: 600px){
    
    
-   body{
-       height: auto;
-       grid-template-columns: 1fr;
-       grid-template-rows: 100px 1fr auto;
+body{
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr auto;
 
    }
-   #content{
-      grid-area: content;
-      display: grid;
-      width: 100%;
-      height: 80%;
-  
- 
+#content{
+  grid-area: content;
+  display: grid;
+  width: 100%;
+  height: 80%;
   }
-  .intro{
+
+.intro{
    display: flex;
    flex-direction: column;
 }
@@ -465,7 +465,6 @@ body{
    align-items: center;
 }
 
-
 .article .contentBox img{
    height: 260px;
    width: 100%;
@@ -484,12 +483,14 @@ body{
 }
 
 /*CSS til reflection essay page*/
+
 .essaytext {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 30px;
   line-height: 1.5;
 }
+
 .avsnitt1 {
    padding: 24px;
    width: 100%;
@@ -511,7 +512,7 @@ body{
     width: 100%;
     background-color: #99bbff;
     display: grid;
-   grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
  
   .avsnitt4 {
@@ -519,9 +520,8 @@ body{
     width: 100%;
     background-color: #99bbff;
     display: grid;
-   grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-
 
 .bildeavsnitt1 {
    margin-right: 5px;
@@ -540,7 +540,7 @@ body{
   width: 250px;
   height: auto;
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
 }
 
 .bildeavsnitt3 {
@@ -550,7 +550,7 @@ body{
   width: 250px;
   height: auto;
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
 }
 
 .bildeavsnitt4 {
@@ -560,12 +560,13 @@ body{
   width: 250px;
   height: auto;
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
 }
 
 /*
 TOPICAL INFORMATION CSS 600px--
 */
+
 .topicalinfo-container {
   display: flex;
   flex-direction: row;
@@ -579,18 +580,15 @@ TOPICAL INFORMATION CSS 600px--
   border-bottom: 3px solid black;
 }
 
-
 .topicalinfo-paragraph {
   max-width: 70ch;
   line-height: 1.5;
   padding-top: 1rem;
 }
 
-
 .topicalinfo-flexbox {
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  
 }
 
 .topicalinfo-question1{
@@ -603,8 +601,8 @@ TOPICAL INFORMATION CSS 600px--
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
-    
 }
+
 .topicalinfo-question1 h3{
     font-size: 21px;
     max-width: 100%;
@@ -644,14 +642,15 @@ TOPICAL INFORMATION CSS 600px--
   order: 2;
 }
 
-
 /*
 TOPICAL INFORMATION CSS 600px--
 */
 
+
 /*
 ACCESIBILITY PAGE CSS 600px--
 */
+
 .accessibility-title {
   padding: 2rem;
 }
@@ -740,25 +739,28 @@ ACCESIBILITY PAGE CSS 600px--
 ACCESIBILITY PAGE CSS 600px--
 */
 
-
-
-
 }
 
 
-@media  only screen and  (max-width:960px) and (min-width:600px){
-   body{
-      height: auto;
-      grid-template-columns: 1fr;
-      grid-template-rows: 100px 1fr auto;
-  }
 
-   #content{
-      grid-area: content;
-      display: grid;
-      width: 100%;
-      height: 80%;
+
+
+
+@media  only screen and  (max-width:960px) and (min-width:600px){
+
+body{
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr auto;
+}
+
+#content{
+  grid-area: content;
+  display: grid;
+  width: 100%;
+   height: 80%;
  }
+
  .intro{
   display: flex;
   flex-direction: column;
@@ -845,7 +847,7 @@ width: 100%;
     width: 100%;
     background-color: #99bbff;
     display: grid;
-   grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
  
   .avsnitt4 {
@@ -853,7 +855,7 @@ width: 100%;
     width: 100%;
     background-color: #99bbff;
     display: grid;
-   grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
 
@@ -916,7 +918,6 @@ TOPICAL INFORMATION CSS 600px - 960px
   border-bottom: 3px solid black;
 }
 
-
 .topicalinfo-paragraph {
   max-width: 70ch;
   line-height: 1.5;
@@ -949,6 +950,7 @@ TOPICAL INFORMATION CSS 600px - 960px
     display: grid;
     grid-template-columns: repeat(1, 2fr);
 }
+
 .topicalinfo-question1 h3{
     font-size: 21px;
     padding-bottom: 2rem;
@@ -986,10 +988,10 @@ TOPICAL INFORMATION CSS 600px - 960px
   padding-top: 2rem;
 }
 
-
 /*
 TOPICAL INFORMATION CSS 600px - 960px
 */
+
 
 /*
 ACCESIBILITY PAGE CSS 600px - 960px
@@ -1082,9 +1084,15 @@ ACCESIBILITY PAGE CSS 600px - 960px
 ACCESIBILITY PAGE CSS 960PX++
 */
 
-
-
 }
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 960px) {
 
@@ -1105,7 +1113,6 @@ TOPICAL INFORMATION CSS 960px++
   font-size: 64px;
   border-bottom: 3px solid black;
 }
-
 
 .topicalinfo-paragraph {
   max-width: 70ch;
@@ -1139,6 +1146,7 @@ TOPICAL INFORMATION CSS 960px++
     grid-template-columns: repeat(1, 2fr);
     background: linear-gradient(90deg, #99bbff 50%, whitesmoke 50%);
 }
+
 .topicalinfo-question1 h3{
     font-size: 21px;
     padding-bottom: 2rem;
@@ -1271,10 +1279,6 @@ ACCESIBILITY PAGE CSS 960PX++
 ACCESIBILITY PAGE CSS 960PX++
 */
 
-
-
-
-
 }
 
 
@@ -1335,6 +1339,7 @@ footer {
    text-decoration: none;
    opacity: 0.7;
  }
+ 
  footer .foot_menu li a:hover {
    opacity: 100;
  }
