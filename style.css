@@ -589,15 +589,15 @@ TOPICAL INFORMATION CSS 600px--
 
 .topicalinfo-img1 {
   margin: auto;
-  width: 100%;
-  height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   padding-bottom: 2rem;
 }
 
 .topicalinfo-img2 {
   margin: auto;
-  width: 100%;
-  height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   padding-top: 2rem;
   order: 2;
 }
@@ -897,16 +897,16 @@ TOPICAL INFORMATION CSS 600px - 960px
 
 .topicalinfo-img1 {
   margin: auto;
-  width: 100%;
-  height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   padding-bottom: 2rem;
   object-fit: contain;
 }
 
 .topicalinfo-img2 {
   margin: auto;
-  width: 100%;
-  height: 100%;
+  max-width: 90%;
+  max-height: 90%;
   padding-top: 2rem;
   object-fit: contain;
   order: 2;
