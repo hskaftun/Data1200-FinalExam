@@ -88,8 +88,9 @@ div{
   top: 0px;
   left: 0px;
   background-color: #99bbff;
-  min-height: 54px;
+  min-height: 103px;
 }
+
 .logo{
     position: fixed;
     display: block;
@@ -97,17 +98,39 @@ div{
     display: inline;
     right: 5px;
     top: 5px;
-
-    
 }
+
 .header{
     
     top: 0px;
     width: 100%;
     z-index: 99;
     display: flex;
-    
 }
+
+/*Hover effekter til sidebar*/
+
+#welcome:hover {
+  background-color: white;
+  color:  #99bbff;
+}
+#reflectionessay:hover {
+  background-color: white;
+  color:  #99bbff;
+}
+#accessibility:hover {
+  background-color: white;
+  color:  #99bbff;
+}
+#topicalinfo:hover {
+  background-color: white;
+  color:  #99bbff;
+}
+#fun:hover {
+  background-color: white;
+  color:  #99bbff;
+}
+
 
 /*<--FUN PAGE START-->*/
 
@@ -121,6 +144,8 @@ div{
   background-image: linear-gradient(to bottom,whitesmoke 20%,whitesmoke 100%),url(funinoslo.jpg);
   background-position: center;
   background-size: cover;
+  padding-left: 1%;
+  
 }
  .heading{
    width: 30%;

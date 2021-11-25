@@ -1,10 +1,9 @@
-
-
 *{
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
 }
+
 body{
    font-size: 16px;
    grid-template-areas: 
@@ -13,7 +12,6 @@ body{
    "footer";
    grid-template-rows: 100px 1fr 400px;
    line-height: 1.5;
-
 }
 
 #content{
@@ -812,8 +810,8 @@ width: 100%;
 
 /*CSS til reflection essay page*/
 .essaytext {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-top: 30px;
   line-height: 1.5;
 }
