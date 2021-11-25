@@ -599,7 +599,7 @@ TOPICAL INFORMATION CSS 600px--
   width: 100%;
   height: 100%;
   padding-bottom: 2rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .topicalinfo-img2 {
@@ -607,7 +607,7 @@ TOPICAL INFORMATION CSS 600px--
   width: 100%;
   height: 100%;
   padding-top: 2rem;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
@@ -909,7 +909,7 @@ TOPICAL INFORMATION CSS 600px - 960px
   width: 100%;
   height: 100%;
   padding-bottom: 2rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .topicalinfo-img2 {
@@ -917,7 +917,7 @@ TOPICAL INFORMATION CSS 600px - 960px
   width: 100%;
   height: 100%;
   padding-top: 2rem;
-  object-fit: cover;
+  object-fit: contain;
   order: 2;
 }
 
