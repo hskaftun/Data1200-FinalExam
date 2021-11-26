@@ -79,6 +79,7 @@ body{
  
  #main {
    position: fixed;
+   min-height: 107px;
    transition: margin-left 0.5s;
    padding: 24px;
    width: 100%;
