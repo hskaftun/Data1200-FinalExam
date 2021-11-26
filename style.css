@@ -298,6 +298,9 @@ body{
 
 /*Hover effekter til sidebar slutt*/
 
+.index-paragraph {
+  font-size: 20px;
+}
 
 
 /*CSS til reflection essay page*/
@@ -317,6 +320,7 @@ body{
 .reflectionessay-h2 {
   text-align: center;
   font-size: 30px;
+  padding-top: 1rem;
 }
 
 #freetime {
@@ -568,10 +572,12 @@ order: 1;
 
 .reflectionessay-paragraph{
 padding-top: 2rem;
+font-size: 20px;
 }
 
 .reflectionessay-h2 {
   font-size: 26px;
+  padding-top: 1rem;
 }
 
 
@@ -665,6 +671,7 @@ TOPICAL INFORMATION CSS 600px--
   max-width: 70ch;
   line-height: 1.5;
   padding-top: 1rem;
+  font-size: 20px;
 }
 
 .topicalinfo-flexbox {
@@ -988,6 +995,7 @@ order: 1;
 
 .reflectionessay-paragraph{
 padding-top: 2rem;
+font-size: 20px;
 }
 
 
@@ -1086,6 +1094,7 @@ TOPICAL INFORMATION CSS 600px - 960px
   line-height: 1.5;
   padding-top: 1rem;
   grid-template-columns: repeat(1, 2fr);
+  font-size: 20px;
 }
 
 .topicalinfo-text1 {
@@ -1312,6 +1321,7 @@ order: 2;
 
 .reflectionessay-paragraph{
 padding-top: 2rem;
+font-size: 20px;
 }
 
 
@@ -1407,6 +1417,7 @@ TOPICAL INFORMATION CSS 960px++
   line-height: 1.5;
   padding-bottom: 1rem;
   grid-template-columns: repeat(1, 2fr);
+  font-size: 20px;
 }
 
 .topicalinfo-text1 {
