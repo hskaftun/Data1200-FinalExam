@@ -306,6 +306,7 @@ body{
    margin-right: 5%;
    margin-top: 30px;
    line-height: 1.5;
+   padding-bottom: 1rem;
 }
 
 #headingessay {
@@ -407,123 +408,118 @@ body{
 
 @media only screen and (max-width: 600px){
   
-  *{
-    padding: 0;
-    margin: 0; 
-    box-sizing: border-box;
-    font-size: 16px;
- }
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}
  
- body{
-     display: grid;
-     grid-template-areas: 
-     "header"
-     "content"
-     "footer";
-     height: auto;
-     grid-template-columns: 1fr;
-     grid-template-rows: 150px 1fr auto;
- 
+body{
+  grid-template-areas: 
+  "header"
+  "content"
+  "footer";
+  grid-template-columns: 1fr;
  }
- #content{
-    grid-area: content;
-    display: grid;
-    grid-template-rows: auto 1fr ;
-    background: lightgrey;
+
+#content{
+  grid-area: content;
+  display: grid;
+  background: lightgrey;
 
 }
 .intro{
- display: flex;
- flex-direction: column;
- align-items: center;
- position: relative;
- background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: grey;
    
 }
 
 .intro:before{
- content: '';
- background: url(./images/1homepage.jpg) no-repeat center center/cover;
- opacity: 0.4;
- position: absolute;
- top:0;
- left: 0;
- width: 100%;
- height: 100%;
+  content: '';
+  background: url(./images/1homepage.jpg) no-repeat center center/cover;
+  opacity: 0.4;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .article{
- display: grid;
- grid-template-columns: repeat(1,1fr);
- grid-template-rows: repeat(7,auto);
- grid-gap: 1rem;
- margin-left: 1vw;
- margin-right: 1vw;
- border: none;
- margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(7,auto);
+  grid-gap: 1rem;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: none;
+  margin-bottom: 1rem;
 }
 .article > div:nth-child(1){
- grid-column: 1/span 1;
+  grid-column: 1/span 1;
 }
 .article > div:nth-child(2){
- grid-column: 1/span 1;
- display: flex;
- flex-direction: column;
- align-items: center;
+  grid-column: 1/span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .article > div:last-child{
- grid-column-start: 1 ;
- grid-column-end: 2;
- display: flex;
- flex-direction: column;
- align-items: center;
+  grid-column-start: 1 ;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .article > div:nth-child(3){
- background: rgb(53, 51, 51);
- border-radius: 0 2rem 0 2rem;
- color: white;
+  background: rgb(53, 51, 51);
+  border-radius: 0 2rem 0 2rem;
+  color: white;
 }
 .article > div:nth-child(7){
- background: rgb(202, 81, 81);
- border-radius:  2rem 0 2rem 0 ;
- color: white;
+  background: rgb(202, 81, 81);
+  border-radius:  2rem 0 2rem 0 ;
+  color: white;
 }
 .article > div{
- border: none;
- background: white;
- display: flex;
- flex-direction: column;
- padding: 0.5rem;
+  border: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
  
 }
 .article .contentTittel{
- background: none;
- padding: 20px 30px;
+  background: none;
+  padding: 20px 30px;
 
 }
 .article .contentTittel h3{
- font-size: 2rem;
- font-weight: bolder;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 .article .contentBox img{
- height: 260px;
- width: 100%;
+  height: 260px;
+  width: 100%;
  
 }
 .article .contentBox .boxInclusive{
- border: none;
- background: none;
- margin: 0.75rem;
+  border: none;
+  background: none;
+  margin: 0.75rem;
 }
 
 .article .contentBox h5{
- display: block;
- width: 70%;
- padding: 0.25rem 1rem;
- border-radius: 1rem;
+  display: block;
+  width: 70%;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
 }
 .article .contentBox h3{
- font-size: 1.5rem;
- margin:  0.5rem 0.25rem;
+  font-size: 1.5rem;
+  margin:  0.5rem 0.25rem;
 }
 
 /*
@@ -537,11 +533,12 @@ REFLECTIOIN ESSAY 600px--
   border-bottom: 3px solid black;
   display: table;
   margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .essaytext {
 line-height: 1.5;
-padding-bottom: 2rem;
+padding-bottom: 1rem;
 margin: auto;
 max-width: 95vw;
 }
@@ -653,9 +650,14 @@ TOPICAL INFORMATION CSS 600px--
 }
 
 .topicalinfo-header {
-  margin-bottom: 2rem;
-  font-size: 64px;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding-top: 2rem;
   border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .topicalinfo-paragraph {
@@ -672,7 +674,7 @@ TOPICAL INFORMATION CSS 600px--
     width: 90%;
     text-align:left; 
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color: white;
     grid-template-columns: repeat(1, 2fr);
 }
@@ -693,7 +695,7 @@ TOPICAL INFORMATION CSS 600px--
     width: 90%;
     text-align:left; 
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color:white;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -738,6 +740,7 @@ ACCESIBILITY PAGE CSS 600px--
   max-width: 95vw;
   background-color: white;
   box-shadow: 0px 0px 0px 1px darkgrey;
+  margin-bottom: 1rem;
 }
 
 .accessibility-title{
@@ -829,12 +832,14 @@ ACCESIBILITY PAGE CSS 600px--
   padding-top: 2rem;
   border-bottom: 3px solid black;
   display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .essaytext {
 line-height: 1.5;
 max-width: 80%;
-padding-bottom: 2rem;
+padding-bottom: 1rem;
 margin: auto;
 }
 
@@ -944,9 +949,13 @@ TOPICAL INFORMATION CSS 600px - 960px
 }
 
 .topicalinfo-header {
-  margin-bottom: 2rem;
-  font-size: 64px;
+  margin: auto;
+  text-align: center;
+  padding-top: 2rem;
   border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .topicalinfo-paragraph {
@@ -976,7 +985,7 @@ TOPICAL INFORMATION CSS 600px - 960px
     transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
@@ -998,7 +1007,7 @@ TOPICAL INFORMATION CSS 600px - 960px
     transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1042,6 +1051,7 @@ ACCESIBILITY PAGE CSS 600px - 960px
   max-width: 85vw;
   background-color: white;
   box-shadow: 0px 0px 0px 1px darkgrey;
+  margin-bottom: 1rem;
 }
 
 .accessibility-title{
@@ -1143,12 +1153,14 @@ REFLECTIOIN ESSAY 960px++
   padding-top: 2rem;
   border-bottom: 3px solid black;
   display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .essaytext {
 line-height: 1.5;
 max-width: 80%;
-padding-bottom: 2rem;
+padding-bottom: 1rem;
 margin: auto;
 }
 
@@ -1254,9 +1266,12 @@ TOPICAL INFORMATION CSS 960px++
 }
 
 .topicalinfo-header {
-  margin-bottom: 2rem;
-  font-size: 64px;
+  text-align: center;
+  padding-top: 2rem;
   border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .topicalinfo-paragraph {
@@ -1285,7 +1300,7 @@ TOPICAL INFORMATION CSS 960px++
     width: 90%;
     text-align:left;
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color: #99bbff;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
@@ -1307,7 +1322,7 @@ TOPICAL INFORMATION CSS 960px++
     left: 50%;
     text-align:left; 
     padding: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1rem;
     background-color: #99bbff;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1352,6 +1367,7 @@ ACCESIBILITY PAGE CSS 960PX++
   max-width: 70vw;
   background-color: white;
   box-shadow: 0px 0px 0px 1px darkgrey;
+  margin-bottom: 1rem;
 }
 
 .accessibility-title{
