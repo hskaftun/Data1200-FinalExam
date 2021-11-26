@@ -50,6 +50,12 @@ div{
   font-size: 36px;
   margin-left: 50px;
 }
+
+.sidebar .closebtn:hover {
+  opacity: 50%;
+  transition: 0.2s;
+ }
+
 #mySidebar ul li a:hover{
   background:#ff6e00;
   border-radius: 2px;
@@ -65,7 +71,8 @@ div{
 }
 
 .openbtn:hover {
-  background-color: white;
+  opacity: 50%;
+  transition: 0.2s;
 }
 
 #main {
@@ -465,7 +472,8 @@ div{
 }
 
 .openbtn:hover {
-  background-color: white;
+  opacity: 50%;
+  transition: 0.2s;
 }
 
 #main {

@@ -20,8 +20,6 @@ body{
   display: grid;
   grid-template-rows: 1fr 3fr ;
   background: lightgrey;
-
-
 }
 
 .sidebar {
@@ -58,6 +56,11 @@ body{
    font-size: 36px;
    margin-left: 50px;
  }
+
+ .sidebar .closebtn:hover {
+  opacity: 50%;
+  transition: 0.2s;
+ }
  
  #mySidebar ul li a:hover{
    background:#fff;
@@ -74,7 +77,8 @@ body{
  }
  
  .openbtn:hover {
-   background-color: white;
+   opacity: 50%;
+   transition: 0.2s;
  }
  
  #main {
