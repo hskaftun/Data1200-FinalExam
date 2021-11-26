@@ -584,28 +584,28 @@ font-size: 20px;
 .avsnitt1 {
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 }
  
 .avsnitt2 {
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 }
  
 .avsnitt3 {
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 }
  
 .avsnitt4 {
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 }
 
 .bildeavsnitt1 {
@@ -1002,14 +1002,14 @@ font-size: 20px;
 .avsnitt1 {
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 }
  
 .avsnitt2 {
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 
 }
  
@@ -1017,7 +1017,7 @@ background-color: #99bbff;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: #whitesmoke;
 
 }
  
@@ -1025,7 +1025,7 @@ background-color: #99bbff;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #99bbff;
+background-color: whitesmoke;
 
 }
 
@@ -1329,6 +1329,7 @@ font-size: 20px;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+background: linear-gradient(90deg, whitesmoke 50%, #99bbff 50%);
 }
  
 .avsnitt2 {
@@ -1336,6 +1337,7 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+background: linear-gradient(90deg, whitesmoke  50%, #99bbff 50%);
 }
  
 .avsnitt3 {
@@ -1343,6 +1345,7 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+background: linear-gradient(90deg, #99bbff 50%, whitesmoke 50%);
 
 }
  
@@ -1351,6 +1354,7 @@ width: 100%;
 background-color: #99bbff;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+background: linear-gradient(90deg, #99bbff 50%, whitesmoke 50%);
 }
 
 
