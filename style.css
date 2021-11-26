@@ -127,7 +127,6 @@ body{
        
 .article {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
    grid-template-rows: 50px 2fr 3fr 2fr;
    grid-gap: 1rem;
    margin-left: 10vw;
@@ -203,7 +202,6 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   background: linear-gradient;
    font-family: 'Oswald', sans-serif;
 }
 
@@ -986,7 +984,6 @@ TOPICAL INFORMATION CSS 600px - 960px
 .topicalinfo-question1{
     width: 90%;
     left: 50%;
-    transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
     margin-bottom: 1rem;
@@ -1008,7 +1005,6 @@ TOPICAL INFORMATION CSS 600px - 960px
 .topicalinfo-question2{
     width: 90%;
     left: 50%;
-    transform: translate(-50,-50);
     text-align:left; 
     padding: 2em;
     margin-bottom: 1rem;
@@ -1526,8 +1522,5 @@ footer {
  }
 
  footer .foot_menu li a:hover {
-   opacity: 100;
+   opacity: 99;
  }
-
-
-
