@@ -736,13 +736,12 @@ ACCESIBILITY PAGE CSS 600px--
 }
 
 .accessibility-container {
-  margin: 2rem auto 0px auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 95vw;
-  margin-bottom: 1rem;
 }
 
 
@@ -1167,13 +1166,12 @@ ACCESIBILITY PAGE CSS 600px - 960px
 }
 
 .accessibility-container {
-  margin: 2rem auto 0px auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 85vw;
-  margin-bottom: 1rem;
 }
 
 
@@ -1491,13 +1489,12 @@ ACCESIBILITY PAGE CSS 960PX++
 }
 
 .accessibility-container {
-  margin: 2rem auto 0px auto;
+  margin: auto;
+  display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 70vw;
-  margin-bottom: 1rem;
-  grid-template-columns: repeat(1, 2fr);
 }
 
 
