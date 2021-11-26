@@ -1017,7 +1017,7 @@ background-color: whitesmoke;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(1, 1fr);
-background-color: #whitesmoke;
+background-color: whitesmoke;
 
 }
  
