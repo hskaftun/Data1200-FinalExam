@@ -728,7 +728,14 @@ ACCESIBILITY PAGE CSS 600px--
 */
 
 .accessibility-title {
-  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding-top: 2rem;
+  border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .accessibility-container {
@@ -738,17 +745,9 @@ ACCESIBILITY PAGE CSS 600px--
   justify-content: center;
   flex-wrap: wrap;
   max-width: 95vw;
-  background-color: white;
-  box-shadow: 0px 0px 0px 1px darkgrey;
   margin-bottom: 1rem;
 }
 
-.accessibility-title{
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 75%;
-}
 
 .accessibility-subheader {
   padding-bottom: 2rem;
@@ -758,21 +757,24 @@ ACCESIBILITY PAGE CSS 600px--
   padding: 2rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
 }
 
 .accessibility-info2 {
   padding: 2rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
 }
 
 .accessibility-info3 {
   padding: 2rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
 }
 
 .accessibility-paragraph {
@@ -788,14 +790,16 @@ ACCESIBILITY PAGE CSS 600px--
   display: block;
   margin: auto;
   max-width: 100%;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  order: 3;
 }
 
 .accessibility-img2 {
   display: block;
   margin: auto;
   max-width: 100%;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  order: 3;
 }
 
 .accessibility-img3 {
@@ -803,7 +807,7 @@ ACCESIBILITY PAGE CSS 600px--
   margin: auto;
   max-width: 100%;
   padding-top: 2rem;
-  order: 2;
+  order: 3;
 }
 
 .accessibility-paragraph3 {
@@ -1039,7 +1043,14 @@ TOPICAL INFORMATION CSS 600px - 960px
 ACCESIBILITY PAGE CSS 600px - 960px
 */
 .accessibility-title {
-  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding-top: 2rem;
+  border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .accessibility-container {
@@ -1049,46 +1060,45 @@ ACCESIBILITY PAGE CSS 600px - 960px
   justify-content: center;
   flex-wrap: wrap;
   max-width: 85vw;
-  background-color: white;
-  box-shadow: 0px 0px 0px 1px darkgrey;
   margin-bottom: 1rem;
 }
 
-.accessibility-title{
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 75%;
-}
 
 .accessibility-subheader {
   padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .accessibility-info1 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  background-color: whitesmoke;
 }
 
 .accessibility-info2 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  background-color: whitesmoke;
 }
 
 .accessibility-info3 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
-  border-bottom: 1px solid darkgrey;
+  background-color: whitesmoke;
 }
 
 .accessibility-paragraph {
   line-height: 1.5;
   font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .accessibility-text {
@@ -1099,7 +1109,7 @@ ACCESIBILITY PAGE CSS 600px - 960px
   display: block;
   margin: auto;
   max-width: 100%;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .accessibility-img2 {
@@ -1121,6 +1131,8 @@ ACCESIBILITY PAGE CSS 600px - 960px
   line-height: 1.5;
   font-size: 1.2rem;
   order: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /*
@@ -1355,53 +1367,64 @@ TOPICAL INFORMATION CSS 960px+++
 ACCESIBILITY PAGE CSS 960PX++
 */
 .accessibility-title {
-  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding-top: 2rem;
+  border-bottom: 3px solid black;
+  display: table;
+  margin-bottom: 2rem;
+  font-size: 32px
 }
 
 .accessibility-container {
   margin: 2rem auto 0px auto;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 70vw;
-  background-color: white;
-  box-shadow: 0px 0px 0px 1px darkgrey;
   margin-bottom: 1rem;
+  grid-template-columns: repeat(1, 2fr);
 }
 
-.accessibility-title{
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 75%;
-}
+
 
 .accessibility-subheader {
   padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .accessibility-info1 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(1, 2fr);
   display: grid;
+  background-color: whitesmoke;
 }
 
 .accessibility-info2 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(2, 2fr);
   display: grid;
+  background-color: whitesmoke;
 }
 
 .accessibility-info3 {
   padding: 2rem;
+  margin-bottom: 1rem;
   grid-template-columns: repeat(2, 2fr);
   display: grid;
+  background-color: whitesmoke;
 }
 
 .accessibility-paragraph {
+  text-align: left;
   line-height: 1.5;
   font-size: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .accessibility-text {
@@ -1412,7 +1435,7 @@ ACCESIBILITY PAGE CSS 960PX++
   display: block;
   margin: auto;
   max-width: 100%;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .accessibility-img2 {
@@ -1426,6 +1449,8 @@ ACCESIBILITY PAGE CSS 960PX++
   line-height: 1.5;
   font-size: 1.2rem;
   order: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .accessibility-img3 {
