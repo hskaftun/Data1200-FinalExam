@@ -122,7 +122,7 @@ div{
    font-size: 18px;
    padding: 0 1rem 1.5rem 1rem;
  }
- .heading h1{
+ .heading h2{
    font-size: 40px;
    padding-bottom: 20px;
  }
@@ -193,12 +193,12 @@ display: inline-block;
   border:3px solid orange
 }
 /*<---Big title, with text"FUN" in a decorated orange box-->*/
-.body .heading h1{
+.body .heading h2{
   color: var(--black);
   font-size: 3rem;
 }
 /* <----Make Tittle "Fun" ->Orange Fun--->*/
-.body .heading h1 span{
+.body .heading h2 span{
   color:orange;
   font-size: 3rem;
 }
@@ -276,10 +276,10 @@ display: inline-block;
 }
 
 @media  (max-width:1352px){
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 30px;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size:30px;
   }
 }
@@ -289,13 +289,13 @@ display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 45px;
   }
   .heading{
     flex-basis: 60%;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size: 45px;
   }
   .heading p{
@@ -337,10 +337,10 @@ display: inline-block;
 }
 
 @media (max-width:510px) {
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 28px;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size:28px;
 }
 }
@@ -524,7 +524,7 @@ div{
    font-size: 18px;
    padding: 0 1rem 1.5rem 1rem;
  }
- .heading h1{
+ .heading h2{
    font-size: 40px;
    padding-bottom: 20px;
  }
@@ -541,14 +541,14 @@ div{
    border-radius: 20px;
  }
  /*<---The orange boxes over the little pictures-->*/
- #headingintours{
+ .headingintours{
    background-color: orange;
    border-radius: 10px;
    height:5rem;
    padding-top: 2rem;
    margin-bottom: 1px;
  }
- #headingintours h2{
+ .headingintours h2{
    font-size: 1.3rem;
    color: white;
  }
@@ -598,12 +598,12 @@ display: inline-block;
   border:3px solid orange
 }
 /*<---Big title, with text"FUN" in a decorated orange box-->*/
-.body .heading h1{
+.body .heading h2{
   color: var(--black);
   font-size: 3rem;
 }
 /* <----Make Tittle "Fun" ->Orange Fun--->*/
-.body .heading h1 span{
+.body .heading h2 span{
   color:orange;
   font-size: 3rem;
 }
@@ -684,10 +684,10 @@ display: inline-block;
 
 
 @media  (max-width:1352px){
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 30px;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size:30px;
   }
 }
@@ -697,13 +697,13 @@ display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 45px;
   }
   .heading{
     flex-basis: 60%;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size: 45px;
   }
   .heading p{
@@ -745,10 +745,10 @@ display: inline-block;
 }
 
 @media (max-width:510px) {
-  .firstpart .heading h1{
+  .firstpart .heading h2{
     font-size: 28px;
   }
-  .firstpart .heading h1 span{
+  .firstpart .heading h2 span{
     font-size:28px;
 }
 }
