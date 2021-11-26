@@ -230,18 +230,18 @@ display: inline-block;
   padding: 2rem 0;
   padding-bottom: 3rem;
   font-size: 3.5rem;
-
 }
 /*<-----Enclose text "Fun"in an decorated orange box-->*/
 #å span{
   background: orange;
   color: #fff;
-display: inline-block;
-
+  display: inline-block;
   padding: .5rem 3rem;
   font-size: 3.5rem;
   -webkit-clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  position: relative;
+  z-index: -1;
 }
 /*<----Finish decorated box--->*/
 /*<---Texts under title "FUN IN OSLO"-->*/

@@ -10,7 +10,7 @@ body{
      "header"
      "content"
      "footer";
-   grid-template-rows: 100px 1fr 400px;
+/*   grid-template-rows: 100px 1fr 400px;*/
   
  
 
@@ -18,7 +18,7 @@ body{
 #content{
   grid-area: content;
   display: grid;
-  grid-template-rows: 3fr 7fr ;
+  grid-template-rows: 1fr 3fr ;
   background: lightgrey;
 
 
@@ -106,7 +106,6 @@ body{
      display: flex; 
  }
 .intro{
-  
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -119,10 +118,10 @@ body{
    background: url(images/1homepage.jpg) no-repeat center center/cover;
    opacity: 0.4;
    position: absolute;
+   height: 100%;
+   width: 100%;
    top:0;
    left: 0;
-   width: 100%;
-   height: 100%;
 }
        
 .article {
@@ -422,6 +421,7 @@ body{
 
 #content{
   grid-area: content;
+  grid-template-rows: 1fr 3fr ;
   display: grid;
   background: lightgrey;
 
@@ -836,6 +836,7 @@ ACCESIBILITY PAGE CSS 600px--
   
   #content{
     grid-area: content;
+    grid-template-rows: 1fr 3fr ;
     display: grid;
     background: lightgrey;
   
