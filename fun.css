@@ -2,12 +2,8 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
-  font-size: 18px;
 }
 body{
-   display: grid;
-   
-  
    grid-template-rows: 100px 1fr 400px;
 
 }
@@ -811,10 +807,9 @@ display: inline-block;
 }
 /*<---Finish texts-->*/
 /*<---FINISH FUN PAGE--->
-/***************
-*/
+/***
 FOOTER
-***************/
+***/
 
 footer {
   position: relative;
