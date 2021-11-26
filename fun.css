@@ -274,7 +274,7 @@ display: inline-block;
   width: 700px;
   height: 400px;
 }
-.overtours{}
+
 @media  (max-width:1352px){
   .firstpart .heading h1{
     font-size: 30px;
@@ -681,9 +681,7 @@ display: inline-block;
   width: 700px;
   height: 400px;
 }
-.overtours{
 
-}
 
 @media  (max-width:1352px){
   .firstpart .heading h1{
