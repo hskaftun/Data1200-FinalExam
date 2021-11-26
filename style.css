@@ -2,117 +2,123 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
+  font-size: 16px;
+  line-height:1.5
 }
-
 body{
-   font-size: 16px;
-   grid-template-areas: 
-   "header"
-   "content"
-   "footer";
-   grid-template-rows: 100px 1fr 400px;
-   line-height: 1.5;
-}
-
-#content{
    display: grid;
-   grid-template-rows: 1fr 4fr ;
+   height: 2000px; 
+   grid-template-areas: 
+     "header"
+     "content"
+     "footer";
+   grid-template-rows: 100px 1fr 400px;
+  
+ 
+
+}
+#content{
+  grid-area: content;
+   display: grid;
+   grid-template-rows: 3fr 7fr ;
    background: lightgrey;
+
+
 }
 
 .sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #99bbff;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  border: 1px dotted black;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: white;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-#mySidebar ul li a:hover{
-  background:#ff6e00;
-  border-radius: 2px;
-}
-
-.openbtn {
-  font-size: 26px;
-  cursor: pointer;
-  background-color: #99bbff;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: white;
-}
-
-#main {
-  position: fixed;
-  transition: margin-left 0.5s;
-  padding: 24px;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  background-color: #99bbff;
-  min-height: 103px;
-}
-
-.logo{
-    position: fixed;
-    display: block;
-    max-width: 125px;
-    display: inline;
-    right: 5px;
-    top: 5px;
-}
-
-.header{
-    grid-area: header;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 99;
-    display: flex; 
-}
-
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #99bbff;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+   border: 1px dotted black;
+ }
+ 
+ .sidebar a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   display: block;
+   transition: 0.3s;
+ }
+ 
+ .sidebar a:hover {
+   color: white;
+ }
+ 
+ .sidebar .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+ 
+ #mySidebar ul li a:hover{
+   background:#fff;
+   border-radius: 2px;
+ }
+ 
+ .openbtn {
+   font-size: 26px;
+   cursor: pointer;
+   background-color: #99bbff;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+ }
+ 
+ .openbtn:hover {
+   background-color: white;
+ }
+ 
+ #main {
+   position: fixed;
+   transition: margin-left 0.5s;
+   padding: 24px;
+   width: 100%;
+   top: 0px;
+   left: 0px;
+   background-color: #99bbff;
+   min-height: 103px;
+ }
+ 
+ .logo{
+     position: fixed;
+     display: block;
+     max-width: 125px;
+     display: inline;
+     right: 5px;
+     top: 5px;
+ }
+ 
+ .header{
+     grid-area: header;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+     z-index: 99;
+     display: flex; 
+ }
 .intro{
+  
    display: flex;
    flex-direction: row;
    align-items: center;
    position: relative;
-   background: white;
+   background: grey;
+     
 }
-
-.intro:before  {
+.intro:before{
    content: '';
-   background: url(/images/1homepage.jpg) no-repeat center center/cover;
+   background: url(images/1homepage.jpg) no-repeat center center/cover;
    opacity: 0.4;
    position: absolute;
    top:0;
@@ -120,7 +126,7 @@ body{
    width: 100%;
    height: 100%;
 }
-          
+       
 .article {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
@@ -392,6 +398,13 @@ body{
 }
 
 /*CSS til reflection essay page slutt*/
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px){
@@ -1107,6 +1120,15 @@ ACCESIBILITY PAGE CSS 960PX++
 */
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
