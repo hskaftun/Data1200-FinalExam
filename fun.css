@@ -262,7 +262,10 @@ display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
-.overtours{}
+.overtours{
+
+}
+
 @media  (max-width:1352px){
   .firstpart .heading h1{
     font-size: 30px;
@@ -324,6 +327,63 @@ display: inline-block;
   .firstpart .heading h1 span{
     font-size:28px;
 }
-/*<---Finish texts-->*/
 
+}
+/*<---Finish texts-->*/
+/***************
+FOOTER
+***************/
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #99bbff;
+  height: 15rem;
+  padding: 0.5rem;
+  padding-top: 2rem;
+}
+
+footer .SoMe,
+footer .foot_menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .SoMe li,
+footer .foot_menu li {
+  list-style: none;
+}
+
+footer .SoMe li a {
+  font-size: 3rem;
+  color: #f4f4f4;
+  margin: 0 0.7rem;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .SoMe li a:hover {
+  transform: translateY(-7px);
+}
+
+footer .foot_menu li a {
+  font-size: 1.5rem;
+  color: #f4f4f4;
+  margin: 0 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+footer .foot_menu li a:hover {
+  opacity: 100;
+}
 /*<---FINISH FUN PAGE--->
